@@ -1,6 +1,6 @@
 # GlacierWatch: Satellite-Driven GLOF Early-Risk Indicator & Warning System
 
-**Live Deployment:** [https://your-glacierwatch-app.vercel.app](https://your-glacierwatch-app.vercel.app)  
+**Live Deployment:** [https://glacier-watch-sigma.vercel.app](https://glacier-watch-sigma.vercel.app)  
 **NASA Space Apps Challenge 2026 Submission**
 
 ---
