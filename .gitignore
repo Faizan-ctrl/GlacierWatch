@@ -1,0 +1,36 @@
+# Secrets & Environments
+.env
+.env.*
+venv/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# Heavy Raw Satellite, DEM & Weather Rasters (Manifest CSVs remain tracked)
+*.tif
+*.tiff
+*.nc4
+*.nc
+*.hgt
+*.hgt.zip
+*.hdf
+*.mp4
+
+# Interrupted IMERG Downloads
+**/partial_*
+
+# Trial & Temporary Scratch Files
+trial_area.csv
+previews_trial/
+previews_wide/
+check_s1.py
+inspect_shisper.py
+find_sources.py
+sources_report.txt
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

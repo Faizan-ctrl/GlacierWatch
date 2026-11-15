@@ -1,0 +1,2 @@
+{"alert_id": "GW-20261114-135025-BROGHIL", "timestamp": "2026-11-14T13:50:25.741645", "lake_id": "broghil", "approved_by": "+92 316 6432907", "channels": ["SMS", "WhatsApp voice note", "Village noticeboard"], "status": "DISPATCHED"}
+{"alert_id": "GW-20261115-004822-SHISPER", "timestamp": "2026-11-15T00:48:22.389368", "lake_id": "shisper", "approved_by": "+92 316 6432907", "channels": ["SMS", "WhatsApp voice note", "Village noticeboard"], "status": "DISPATCHED"}

@@ -1,0 +1,6701 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-14T07:48:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 271959710,
+  "lat": 36.4658158,
+  "lon": 74.8943261,
+  "tags": {
+    "is_in": "Pussu",
+    "name": "Passu",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 298858765,
+  "lat": 36.8624361,
+  "lon": 74.9983712,
+  "tags": {
+    "is_in": "Pakistan, Northern Areas",
+    "name": "Dih",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 732647425,
+  "lat": 36.4064357,
+  "lon": 74.8623226,
+  "tags": {
+    "name": "Gulkin",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 732647430,
+  "lat": 36.3152578,
+  "lon": 74.8138106,
+  "tags": {
+    "name": "عطا آباد",
+    "name:en": "Attabad",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 732670170,
+  "lat": 36.3548329,
+  "lon": 74.8642534,
+  "tags": {
+    "name": "Shishkat Bala",
+    "place": "village",
+    "source": "NASA Earth Observatory - Terra - ASTER",
+    "source:url": "http://earthobservatory.nasa.gov/IOTD/view.php?id=43921&src=imgrss"
+  }
+},
+{
+  "type": "node",
+  "id": 732670366,
+  "lat": 36.3231001,
+  "lon": 74.8732983,
+  "tags": {
+    "name": "Bulchi Dās",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 735104912,
+  "lat": 36.1806745,
+  "lon": 74.3044699,
+  "tags": {
+    "name": "جگلوٹ",
+    "name:ar": "جكلوت",
+    "name:en": "Jaglot",
+    "name:fa": "جوگلات",
+    "name:ks": "جگلوٹ",
+    "name:ur": "جگلوٹ",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg",
+    "wikidata": "Q1711444",
+    "wikipedia": "fa:جوگلات"
+  }
+},
+{
+  "type": "node",
+  "id": 735104914,
+  "lat": 36.3125366,
+  "lon": 74.6355320,
+  "tags": {
+    "name": "Sheraz",
+    "name:ur": "شراذ",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-;local knowledge",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 735104916,
+  "lat": 36.2410208,
+  "lon": 74.4251425,
+  "tags": {
+    "name": "Mayoon",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 735133953,
+  "lat": 36.2820888,
+  "lon": 74.5997081,
+  "tags": {
+    "name": "Murtazabad",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat WMS",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 737315377,
+  "lat": 36.4374969,
+  "lon": 75.3166778,
+  "tags": {
+    "name": "شمشال",
+    "name:en": "Shimshal",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat WMS",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-15.jpg",
+    "wikidata": "Q7497042"
+  }
+},
+{
+  "type": "node",
+  "id": 737823267,
+  "lat": 36.3055127,
+  "lon": 74.7328276,
+  "tags": {
+    "name": "احمد آباد",
+    "name:en": "Ahmadabad",
+    "old_name": "Muhammadābād",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 737881251,
+  "lat": 36.3063961,
+  "lon": 74.7733768,
+  "tags": {
+    "name": "Salamanbad",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat WMS",
+    "source:photographs": "http://daveslandslideblog.blogspot.com/2010/03/attabad-landslide-in-n-pakistan-some.html"
+  }
+},
+{
+  "type": "node",
+  "id": 738262480,
+  "lat": 36.0456740,
+  "lon": 74.2996890,
+  "tags": {
+    "name": "Jutal",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 738262486,
+  "lat": 36.1052777,
+  "lon": 74.2993110,
+  "tags": {
+    "name": "رحیم آباد",
+    "name:en": "Rahimabad",
+    "name:old": "Matum Dās",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat WMS",
+    "source:name": "Ali Musofer",
+    "source:name:url": "http://pamirtimes.files.wordpress.com/2010/05/idps2.jpg",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 738288583,
+  "lat": 36.2461727,
+  "lon": 74.4540999,
+  "tags": {
+    "name": "Khanabad",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 738288616,
+  "lat": 36.2413722,
+  "lon": 74.4781245,
+  "tags": {
+    "name": "Gulmet Nagar",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat WMS",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 738288621,
+  "lat": 36.2612325,
+  "lon": 74.2893858,
+  "tags": {
+    "alt_name:en": "Chaprot",
+    "name": "چھپروٹ",
+    "name:en": "Chaprote",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg",
+    "wikidata": "Q16944378",
+    "wikipedia": "en:Chaprote"
+  }
+},
+{
+  "type": "node",
+  "id": 738297218,
+  "lat": 36.2500808,
+  "lon": 74.5177383,
+  "tags": {
+    "name": "Pisan",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat WMS",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 738297220,
+  "lat": 36.2523366,
+  "lon": 74.5358705,
+  "tags": {
+    "name": "Minapin",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat WMS",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 738949728,
+  "lat": 36.3394868,
+  "lon": 74.8690536,
+  "tags": {
+    "name": "Nazimabad-Pyeen",
+    "place": "village",
+    "source": "NDMA Hunza Report",
+    "source:url": "http://ndma.gov.pk/AttaHunzaLandslide.html"
+  }
+},
+{
+  "type": "node",
+  "id": 738949729,
+  "lat": 36.3160751,
+  "lon": 74.8682818,
+  "tags": {
+    "name": "Ainabad",
+    "place": "village",
+    "source": "NDMA Hunza Report",
+    "source:url": "http://ndma.gov.pk/AttaHunzaLandslide.html"
+  }
+},
+{
+  "type": "node",
+  "id": 738978986,
+  "lat": 36.2735026,
+  "lon": 74.6137340,
+  "tags": {
+    "name": "Hakucher Nagar",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat WMS",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 738978993,
+  "lat": 36.2759992,
+  "lon": 74.7164489,
+  "tags": {
+    "alt_name:en": "Nagar;Nagir;Nager;Nagar Khas;Uyum Nager",
+    "alt_name:hi": "नगर;नगरखास",
+    "alt_name:ur": "نگر;نگرخاص",
+    "name": "ایم نگݵر",
+    "name:bsk": "ایم نگݵر",
+    "name:en": "Nagarkhas",
+    "name:hi": "नगरख़ास",
+    "name:ur": "نگر خاص",
+    "name:zh": "拿噶尔",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat WMS",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg",
+    "wikidata": "Q301999"
+  }
+},
+{
+  "type": "node",
+  "id": 738978997,
+  "lat": 36.3012112,
+  "lon": 74.6352286,
+  "tags": {
+    "name": "Askurdass Nagar",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat WMS",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 738979001,
+  "lat": 36.2956603,
+  "lon": 74.6173532,
+  "tags": {
+    "name": "Shayar Nagar",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat WMS",
+    "source:url": "http://www.lib.utexas.edu/maps/ams/india/nj-43-14.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 739670280,
+  "lat": 36.4253556,
+  "lon": 74.8754430,
+  "tags": {
+    "name": "Husseini",
+    "old_name": "Sesoni",
+    "place": "village",
+    "source": "http://gbtimes.files.wordpress.com/2010/05/situation-report-19.pdf",
+    "source:imagery": "Landsat WMS",
+    "source:old_name": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-"
+  }
+},
+{
+  "type": "node",
+  "id": 747749296,
+  "lat": 36.1742830,
+  "lon": 74.2791754,
+  "tags": {
+    "name": "Gowatchi Nomal",
+    "place": "village",
+    "source": "Ali Musofer",
+    "source:imagery": "Landsat WMS",
+    "source:url": "http://pamirtimes.files.wordpress.com/2010/05/idps2.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 747797741,
+  "lat": 36.4309057,
+  "lon": 74.8958606,
+  "tags": {
+    "name": "Zarabad",
+    "place": "hamlet",
+    "source:imagery": "Landsat WMS"
+  }
+},
+{
+  "type": "node",
+  "id": 752260178,
+  "lat": 36.3053692,
+  "lon": 74.6546555,
+  "tags": {
+    "name": "Sumayar Nagar",
+    "place": "village",
+    "source:imagery": "Landsat WMS"
+  }
+},
+{
+  "type": "node",
+  "id": 752260436,
+  "lat": 36.3144365,
+  "lon": 74.7050763,
+  "tags": {
+    "name": "Fiazabad Hunza",
+    "place": "hamlet",
+    "source:imagery": "Landsat WMS"
+  }
+},
+{
+  "type": "node",
+  "id": 752645241,
+  "lat": 36.2646364,
+  "lon": 74.5232841,
+  "tags": {
+    "name": "Nasirabad Hindi",
+    "place": "village",
+    "source:imagery": "Landsat WMS"
+  }
+},
+{
+  "type": "node",
+  "id": 752645245,
+  "lat": 36.2507285,
+  "lon": 74.3898927,
+  "tags": {
+    "name": "Hussinabad",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 752658621,
+  "lat": 36.4394867,
+  "lon": 74.9127901,
+  "tags": {
+    "name": "Khuramabad",
+    "place": "hamlet",
+    "source:imagery": "Aster May 25 image",
+    "source:url": "http://earthobservatory.nasa.gov/images/imagerecords/44000/44086/hunza_ast_2010145_lrg.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 752803242,
+  "lat": 36.6815982,
+  "lon": 74.8194087,
+  "tags": {
+    "name": "Khudabad",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 752803403,
+  "lat": 36.3257281,
+  "lon": 74.6689153,
+  "tags": {
+    "name": "Baltit",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat WMS"
+  }
+},
+{
+  "type": "node",
+  "id": 769392662,
+  "lat": 36.5777701,
+  "lon": 74.7961098,
+  "tags": {
+    "name": "Khyber",
+    "place": "village",
+    "source:imagery": "Landsat",
+    "source:name": "GNS"
+  }
+},
+{
+  "type": "node",
+  "id": 769392663,
+  "lat": 36.5938224,
+  "lon": 74.8574788,
+  "tags": {
+    "name": "Chalapan",
+    "place": "hamlet",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat",
+    "source:name": "GNS"
+  }
+},
+{
+  "type": "node",
+  "id": 769392664,
+  "lat": 36.6131432,
+  "lon": 74.8646036,
+  "tags": {
+    "name": "Morkhun",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 769392665,
+  "lat": 36.6490393,
+  "lon": 74.8468631,
+  "tags": {
+    "name": "Gircha",
+    "place": "hamlet",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat"
+  }
+},
+{
+  "type": "node",
+  "id": 769392666,
+  "lat": 36.6176353,
+  "lon": 74.8632045,
+  "tags": {
+    "alt_name:en": "Jamalabad Gojal",
+    "name": "گوجال",
+    "name:en": "Gojal",
+    "name:ur": "گوجال",
+    "name:zh": "上罕萨",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat",
+    "wikidata": "Q12858369"
+  }
+},
+{
+  "type": "node",
+  "id": 769415719,
+  "lat": 36.8594554,
+  "lon": 75.0349276,
+  "tags": {
+    "name": "Jun Kharchanai",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat"
+  }
+},
+{
+  "type": "node",
+  "id": 772484612,
+  "lat": 36.4876086,
+  "lon": 75.1377922,
+  "tags": {
+    "name": "Ziārat",
+    "place": "hamlet",
+    "source": "Topographic Map - NJ 43-15 Series U502, 1:250,000, U.S. Army Map Service, 1955-"
+  }
+},
+{
+  "type": "node",
+  "id": 772484626,
+  "lat": 36.4940115,
+  "lon": 75.1948715,
+  "tags": {
+    "name": "Mulungūtti",
+    "place": "hamlet",
+    "source:imagery": "Landsat",
+    "source:name": "GNS"
+  }
+},
+{
+  "type": "node",
+  "id": 772503780,
+  "lat": 36.4615061,
+  "lon": 75.2463452,
+  "tags": {
+    "name": "Farmanabad Shimshal",
+    "place": "hamlet",
+    "source:imagery": "Landsat",
+    "source:name": "GNS"
+  }
+},
+{
+  "type": "node",
+  "id": 772503880,
+  "lat": 36.4812609,
+  "lon": 75.2403793,
+  "tags": {
+    "name": "Kut Dūr-i-Dasht",
+    "place": "hamlet",
+    "source:imagery": "Landsat",
+    "source:name": "Topographic Map - NJ 43-15 Series U502, 1:250,000, U.S. Army Map Service, 1955-"
+  }
+},
+{
+  "type": "node",
+  "id": 772708705,
+  "lat": 36.1718664,
+  "lon": 74.9942177,
+  "tags": {
+    "name": "Hispar",
+    "place": "village",
+    "source": "Topographic Map - NJ 43-14 Series U502, 1:250,000, U.S. Army Map Service, 1955-",
+    "source:imagery": "Landsat"
+  }
+},
+{
+  "type": "node",
+  "id": 2350892736,
+  "lat": 36.4966211,
+  "lon": 74.8795093,
+  "tags": {
+    "name": "Janabad",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 2727163583,
+  "lat": 36.2273821,
+  "lon": 74.7566495,
+  "tags": {
+    "name": "رٹر",
+    "name:bsk": "رٹر",
+    "name:en": "Ratal Hoper",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 3522720016,
+  "lat": 36.3131445,
+  "lon": 74.6683879,
+  "tags": {
+    "alt_name:ur": "Ganesh",
+    "name": "گنش",
+    "name:en": "Ganish",
+    "name:ur": "گنش",
+    "place": "village",
+    "population": "5000",
+    "wikidata": "Q5521317"
+  }
+},
+{
+  "type": "node",
+  "id": 3559618935,
+  "lat": 36.0520069,
+  "lon": 74.1381716,
+  "tags": {
+    "name": "Bargo",
+    "place": "village",
+    "population": "4430",
+    "population:date": "2024-11-20"
+  }
+},
+{
+  "type": "node",
+  "id": 3966035486,
+  "lat": 37.1927560,
+  "lon": 74.1562896,
+  "tags": {
+    "name": "Uch Jelga",
+    "note": "kirghiz summer settlement",
+    "people": "Kirghiz",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 3967681542,
+  "lat": 37.1479929,
+  "lon": 74.0078545,
+  "tags": {
+    "alt_name": "Buzai Gumbaz",
+    "name": "بوزای گنبد",
+    "name:en": "Baza'i Gonbad",
+    "name:fa": "بوزای گنبد",
+    "name:ps": "بازي ګنبد",
+    "name:zh": "布扎伊贡巴德",
+    "people": "Kirghiz",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 3997357596,
+  "lat": 36.0932521,
+  "lon": 74.0035619,
+  "tags": {
+    "name": "Dalnati",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 3997362672,
+  "lat": 36.0917762,
+  "lon": 74.0489841,
+  "tags": {
+    "alt_name:en": "Sherqilla",
+    "name": "شیر قلعہ",
+    "name:en": "Sher Qilla",
+    "place": "village",
+    "wikidata": "Q30687154",
+    "wikipedia": "en:Sher Qilla"
+  }
+},
+{
+  "type": "node",
+  "id": 3997363533,
+  "lat": 36.1311914,
+  "lon": 74.0332096,
+  "tags": {
+    "name": "Derani",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 3997366657,
+  "lat": 36.0627895,
+  "lon": 74.0788409,
+  "tags": {
+    "name": "Gulapur",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 3997373657,
+  "lat": 36.0455301,
+  "lon": 74.1091454,
+  "tags": {
+    "name": "Sharote/Shakiote",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 3997381172,
+  "lat": 36.0303258,
+  "lon": 74.1681583,
+  "tags": {
+    "name": "Saeedabad",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4010539675,
+  "lat": 36.0028798,
+  "lon": 74.5366278,
+  "tags": {
+    "name": "Datuchi Khas Bagrote",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4010634345,
+  "lat": 36.0247455,
+  "lon": 74.5486934,
+  "tags": {
+    "name": "Bulchi",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4010736675,
+  "lat": 36.0214825,
+  "lon": 74.5515716,
+  "tags": {
+    "name": "Farfoo",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4010782716,
+  "lat": 36.0407456,
+  "lon": 74.6115833,
+  "tags": {
+    "name": "Daar Bagrote",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4012048746,
+  "lat": 36.1638623,
+  "lon": 74.1954360,
+  "tags": {
+    "name": "Jagot Nalter Bala",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4012049403,
+  "lat": 36.1305979,
+  "lon": 74.2323601,
+  "tags": {
+    "name": "Nalter Paeen",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4012049555,
+  "lat": 36.1527836,
+  "lon": 74.1929886,
+  "tags": {
+    "name": "Gumut Nagra and Turbat",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4012050184,
+  "lat": 36.1677822,
+  "lon": 74.1780957,
+  "tags": {
+    "name": "Khayot Nalter",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4012092966,
+  "lat": 36.6624181,
+  "lon": 74.0468393,
+  "tags": {
+    "description": "A small village with one school located in ashkoman valley with a little population.",
+    "name": "Mahtramdan",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4012093219,
+  "lat": 36.5778338,
+  "lon": 74.0654208,
+  "tags": {
+    "name": "Bhurt",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4012093326,
+  "lat": 36.5329830,
+  "lon": 74.0056239,
+  "tags": {
+    "name": "Bilhans",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4012093708,
+  "lat": 36.5521463,
+  "lon": 74.0458996,
+  "tags": {
+    "name": "Badswat",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023072513,
+  "lat": 36.3856104,
+  "lon": 74.2822386,
+  "tags": {
+    "name": "Bar Nagar",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023183531,
+  "lat": 36.3664399,
+  "lon": 74.2828526,
+  "tags": {
+    "name": "Ber Garamais",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023185216,
+  "lat": 36.3547501,
+  "lon": 74.2886346,
+  "tags": {
+    "name": "Dododass Chalth",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023188309,
+  "lat": 36.3313706,
+  "lon": 74.2897376,
+  "tags": {
+    "name": "Turbato Dass Chalth",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023192204,
+  "lat": 36.2699317,
+  "lon": 74.2657825,
+  "tags": {
+    "name": "Dass Chaprote",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023193239,
+  "lat": 36.2434980,
+  "lon": 74.3157849,
+  "tags": {
+    "name": "چلٹ پائین",
+    "name:en": "Chalt Payeen",
+    "name:ur": "چلٹ پائین",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023198983,
+  "lat": 36.2429411,
+  "lon": 74.3250452,
+  "tags": {
+    "name": "اکبرآباد چلٹ",
+    "name:en": "Akbarabad Chalt",
+    "name:ur": "اکبرآباد چلٹ",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023201750,
+  "lat": 36.2568489,
+  "lon": 74.3328737,
+  "tags": {
+    "name": "چلٹ بالا",
+    "name:en": "Chalt Bala",
+    "name:ur": "چلٹ بالا",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023205949,
+  "lat": 36.2841973,
+  "lon": 74.3293683,
+  "tags": {
+    "name": "Budalus",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023316198,
+  "lat": 36.2380027,
+  "lon": 74.3929952,
+  "tags": {
+    "name": "Tongdass Jafarabad",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023491500,
+  "lat": 36.2359789,
+  "lon": 74.4102457,
+  "tags": {
+    "name": "Nilt",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023562489,
+  "lat": 36.2399064,
+  "lon": 74.4375194,
+  "tags": {
+    "name": "Thol Nagar",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4023663204,
+  "lat": 36.2406779,
+  "lon": 74.4489187,
+  "tags": {
+    "name": "Masot Thol Nagar",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4025903792,
+  "lat": 36.2468574,
+  "lon": 74.5701285,
+  "tags": {
+    "name": "Miachar Nagar",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4025918437,
+  "lat": 36.2533450,
+  "lon": 74.5864540,
+  "tags": {
+    "name": "Dodimal Nagar",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4025920123,
+  "lat": 36.2667136,
+  "lon": 74.5985931,
+  "tags": {
+    "name": "Phakar",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4025930371,
+  "lat": 36.2961309,
+  "lon": 74.5988253,
+  "tags": {
+    "name": "Hasanabad",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4027222555,
+  "lat": 36.3157280,
+  "lon": 74.6512965,
+  "tags": {
+    "name": "Garelth",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4029338291,
+  "lat": 36.3091621,
+  "lon": 74.7956281,
+  "tags": {
+    "name": "Sarat",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4029344870,
+  "lat": 36.3112712,
+  "lon": 74.7971327,
+  "tags": {
+    "name": "عطا آباد پائیں",
+    "name:en": "Attabad Payeen",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 4029395541,
+  "lat": 36.2785453,
+  "lon": 74.7098697,
+  "tags": {
+    "name": "ہمرݵ",
+    "name:bsk": "ہمرݵ",
+    "name:en": "Hamari Nagar",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4029516471,
+  "lat": 36.2703394,
+  "lon": 74.7160574,
+  "tags": {
+    "name": "کنجوکشل",
+    "name:bsk": "کنجوکشل",
+    "name:en": "Kanjukshal Nagar",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4029535411,
+  "lat": 36.2793511,
+  "lon": 74.7214104,
+  "tags": {
+    "name": "بٹݳ کھن",
+    "name:en": "Bata Khan Nagar",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4029568489,
+  "lat": 36.2740963,
+  "lon": 74.7357060,
+  "tags": {
+    "name": "گٹس",
+    "name:bsk": "گٹس",
+    "name:en": "Gutas Nagar",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4029571147,
+  "lat": 36.2645494,
+  "lon": 74.7426069,
+  "tags": {
+    "name": "ہرݵئݵ گرم",
+    "name:bsk": "ہرݵئݵ گرم",
+    "name:en": "Hariggram Nagar",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4029634694,
+  "lat": 36.2572779,
+  "lon": 74.7476043,
+  "tags": {
+    "name": "ہرݵئݵ گرم شݵین",
+    "name:bsk": "ہرݵئݵ گرم شݵین",
+    "name:en": "Hari Giram Shayan Nagar",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4029670183,
+  "lat": 36.2407401,
+  "lon": 74.7481209,
+  "tags": {
+    "name": "ہکلشل",
+    "name:bsk": "ہکلشل",
+    "name:en": "Hankushal Hoper",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4029763283,
+  "lat": 36.2221297,
+  "lon": 74.7591089,
+  "tags": {
+    "name": "برشل",
+    "name:bsk": "برشل",
+    "name:en": "Brushal Hoper",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4029797785,
+  "lat": 36.2202579,
+  "lon": 74.7672684,
+  "tags": {
+    "name": "ہݸلشل",
+    "name:bsk": "ہݸلشل",
+    "name:en": "Holshal Hoper",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4029803139,
+  "lat": 36.2177754,
+  "lon": 74.7639232,
+  "tags": {
+    "name": "غشݸشل",
+    "name:bsk": "غشݸشل",
+    "name:en": "Goshoshal Hoper",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4032804614,
+  "lat": 36.4407714,
+  "lon": 74.8628590,
+  "tags": {
+    "name": "Burit",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4034043863,
+  "lat": 36.5486203,
+  "lon": 74.8048217,
+  "tags": {
+    "name": "Karimabad Khyber",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4035898888,
+  "lat": 36.7363806,
+  "lon": 74.7208818,
+  "tags": {
+    "name": "Yarzrich",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4035904841,
+  "lat": 36.8188933,
+  "lon": 74.5473837,
+  "tags": {
+    "name": "Keel",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4035914467,
+  "lat": 36.7539492,
+  "lon": 74.7070877,
+  "tags": {
+    "name": "Raminji",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4035922802,
+  "lat": 36.8237328,
+  "lon": 74.5145199,
+  "tags": {
+    "description": "Rasht is a central village and headquarter of Chipursan valley in Hunza Pakistan.",
+    "name": "Rasht",
+    "place": "village",
+    "population": "600"
+  }
+},
+{
+  "type": "node",
+  "id": 4035945444,
+  "lat": 36.8286730,
+  "lon": 74.4970773,
+  "tags": {
+    "name": "Sher e Sabz",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4035964624,
+  "lat": 36.7874805,
+  "lon": 74.7682306,
+  "tags": {
+    "name": "مسگر",
+    "name:en": "Misgar",
+    "name:zh": "米斯嘎尔",
+    "place": "village",
+    "wikidata": "Q30321640",
+    "wikipedia": "en:Misgar, Gojal"
+  }
+},
+{
+  "type": "node",
+  "id": 4035967697,
+  "lat": 36.8311712,
+  "lon": 74.4611164,
+  "tags": {
+    "name": "Ispanj",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4035969697,
+  "lat": 36.8121136,
+  "lon": 74.6089950,
+  "tags": {
+    "name": "Kirmin",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4035992809,
+  "lat": 36.8295066,
+  "lon": 74.4402738,
+  "tags": {
+    "name": "Shitmirg",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 4036090762,
+  "lat": 36.8291762,
+  "lon": 74.4279875,
+  "tags": {
+    "alt_name": "Zuwud Khoon",
+    "description": "Zood Khun (also spelled Zuwudkhoon) is a remote Wakhi village in Chapursan (Chipurson) Valley, Gojal region of Upper Hunza, northern Pakistan. Here's a concise overview:\n\n📍 Location & Accessibility\nAltitude: ~3,300 m above sea level.",
+    "ele": "3300",
+    "image": "https://i0.wp.com/live.staticflickr.com/7886/46820279384_801f652c9d_z.jpg?resize=600%2C381&ssl=1",
+    "loc_name": "Zud Khun",
+    "name": "Zood Khun",
+    "place": "village",
+    "population": "600",
+    "short_name": "zoodkhun",
+    "source": "zudkhun",
+    "wikidata": "Q5101631",
+    "wikipedia": "en:Chapursan"
+  }
+},
+{
+  "type": "node",
+  "id": 4989836626,
+  "lat": 37.1578384,
+  "lon": 74.6587500,
+  "tags": {
+    "alt_name": "Kokturuk",
+    "alt_name:en": "Keketuluke",
+    "barrier": "border_control",
+    "name": "科克吐鲁克 كۆكتۈرۈك",
+    "name:en": "Kokturuk",
+    "name:ug": "كۆكتۈرۈك",
+    "name:zh": "科克吐鲁克",
+    "name:zh-Hans": "科克吐鲁克",
+    "name:zh-Latn-pinyin": "Kē kè tǔ lǔ kè",
+    "place": "hamlet",
+    "source": "Survey of India mapsheet 42"
+  }
+},
+{
+  "type": "node",
+  "id": 5397222254,
+  "lat": 37.1756370,
+  "lon": 74.1450973,
+  "tags": {
+    "alt_name": "Ütsh Djelgha",
+    "name": "Uch Jelga",
+    "name:etymology": "Three Valleys (in Kirghiz)",
+    "note": "Aji Butu Bai Khan, the leader of the Wakhan Kirghiz lives here",
+    "people": "Kirghiz",
+    "place": "hamlet",
+    "type": "kirghiz summer settlement"
+  }
+},
+{
+  "type": "node",
+  "id": 6051191720,
+  "lat": 37.1132436,
+  "lon": 74.9990746,
+  "tags": {
+    "name": "明铁盖村",
+    "name:de": "Mingteke",
+    "name:en": "Mintaka Karaul",
+    "name:ru": "Мингтеке",
+    "name:ug": "مىڭ تىكە",
+    "name:zh": "明铁盖村",
+    "name:zh-Latn-pinyin": "Míng tiě gài cūn",
+    "place": "hamlet",
+    "wikidata": "Q1936703"
+  }
+},
+{
+  "type": "node",
+  "id": 7609106092,
+  "lat": 37.1915957,
+  "lon": 75.3286815,
+  "tags": {
+    "alt_name": "排依克村",
+    "alt_name:en": "Atejiayili",
+    "alt_name:zh-Latn-pinyin": "Pái yī kè cūn",
+    "name": "阿特加依里村 ئاتجەيلى",
+    "name:en": "Atjeyli",
+    "name:ug": "ئاتجەيلى",
+    "name:zh": "阿特加依里村",
+    "name:zh-Latn-pinyin": "Ā tè jiā yī lǐcūn",
+    "note": "English name per Google Translate",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 8925705444,
+  "lat": 36.3140570,
+  "lon": 74.6300348,
+  "tags": {
+    "alt_name:ur": "ڈورکھن",
+    "ele": "2500",
+    "name": "ڈورکھن",
+    "name:en": "Dorkhan",
+    "place": "village",
+    "population": "1500",
+    "source": "local knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 9462161536,
+  "lat": 37.1655716,
+  "lon": 75.3682532,
+  "tags": {
+    "name": "巴什萨瓦村",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 9462161537,
+  "lat": 37.1600845,
+  "lon": 75.3468420,
+  "tags": {
+    "name": "库木艾格勒村",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 9924828586,
+  "lat": 37.1790074,
+  "lon": 74.0610963,
+  "tags": {
+    "name": "Aq Tash Toq",
+    "people": "Kirghiz",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 9925010587,
+  "lat": 37.1976466,
+  "lon": 74.1608638,
+  "tags": {
+    "name": "Kushutuk",
+    "note": "kirghiz summer settlement",
+    "people": "Kirghiz",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 9925010589,
+  "lat": 37.1870573,
+  "lon": 74.0249347,
+  "tags": {
+    "name": "Kitshiq Aq Jelga",
+    "people": "Kirghiz",
+    "place": "hamlet",
+    "source": "Remy Dor and Naumann 1978",
+    "type": "kirghiz winter settlement"
+  }
+},
+{
+  "type": "node",
+  "id": 10215664116,
+  "lat": 37.1772851,
+  "lon": 75.2345617,
+  "tags": {
+    "alt_name:en": "Bayik",
+    "name": "排依克村",
+    "name:en": "Beyik",
+    "name:zh": "排依克村",
+    "name:zh-Latn-pinyin": "Pái yī kè cūn",
+    "place": "hamlet",
+    "source": "Survey of India mapsheet 42"
+  }
+},
+{
+  "type": "node",
+  "id": 10243220676,
+  "lat": 36.8580319,
+  "lon": 75.0647237,
+  "tags": {
+    "name": "ویچ دیور",
+    "name:en": "Wuchdiyor",
+    "name:ur": "ویچ دیور",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 11809493167,
+  "lat": 36.2435196,
+  "lon": 74.7532054,
+  "tags": {
+    "alt_name:en": "Chaqotishal",
+    "name": "چقݸتشل",
+    "name:bsk": "چقݸتشل",
+    "name:en": "Shakoshal",
+    "name:hi": "चकोतिशल",
+    "name:ur": "چقوتشل",
+    "name:zh": "星峡尔村",
+    "place": "village",
+    "wikidata": "Q125422815"
+  }
+},
+{
+  "type": "node",
+  "id": 12082429205,
+  "lat": 36.2545376,
+  "lon": 74.5605870,
+  "tags": {
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 12798792968,
+  "lat": 36.8357601,
+  "lon": 74.2752360,
+  "tags": {
+    "name": "بابا غنڈی زیارت",
+    "name:en": "Baba Ghundi Ziarat",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 13062184273,
+  "lat": 36.0465204,
+  "lon": 74.1214875,
+  "tags": {
+    "name": "Sharote",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 13255146850,
+  "lat": 36.3215177,
+  "lon": 74.6795833,
+  "tags": {
+    "name": "سلطان آباد",
+    "name:en": "Sultanabad",
+    "name:hi": "सुल्तानाबाद",
+    "name:zh": "苏丹阿巴德",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 13337302559,
+  "lat": 36.6369871,
+  "lon": 74.9249927,
+  "tags": {
+    "alt_name:en": "Obgarch",
+    "name": "افگرچ",
+    "name:en": "Avgarch",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 13337302560,
+  "lat": 36.6346825,
+  "lon": 74.9315222,
+  "tags": {
+    "name": "Boibar",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 13396845527,
+  "lat": 37.1504651,
+  "lon": 75.4642368,
+  "tags": {
+    "name": "红其拉甫村",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 14069967101,
+  "lat": 36.1753343,
+  "lon": 74.9868717,
+  "tags": {
+    "name": "Garapo",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 14069967102,
+  "lat": 36.1939104,
+  "lon": 74.9531944,
+  "tags": {
+    "name": "Tarkiching Das",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 14069981732,
+  "lat": 36.0088650,
+  "lon": 74.4244727,
+  "tags": {
+    "name": "Barit",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 14070094746,
+  "lat": 36.1700944,
+  "lon": 74.3398081,
+  "tags": {
+    "name": "Barit",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 14114239269,
+  "lat": 37.0524029,
+  "lon": 74.2274845,
+  "tags": {
+    "alt_name": "Karatash; Tshahār-Tash",
+    "name": "Chartash",
+    "place": "hamlet",
+    "source": "Eastern Wakhan Russian Topo with DEM Hillshade_100_4_34_4.pdf"
+  }
+},
+{
+  "type": "node",
+  "id": 14165090118,
+  "lat": 36.2404044,
+  "lon": 74.7568315,
+  "tags": {
+    "name": "Shikamating",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 14255910081,
+  "lat": 37.1842950,
+  "lon": 75.2109149,
+  "tags": {
+    "name": "果尔斯坦乌托克",
+    "name:zh": "果尔斯坦乌托克",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "way",
+  "id": 27223420,
+  "bounds": {
+    "minlat": 36.3119304,
+    "minlon": 74.6732552,
+    "maxlat": 36.3124860,
+    "maxlon": 74.6739695
+  },
+  "nodes": [
+    298757402,
+    298757410
+  ],
+  "geometry": [
+    { "lat": 36.3124860, "lon": 74.6732552 },
+    { "lat": 36.3119304, "lon": 74.6739695 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "2",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 27231659,
+  "bounds": {
+    "minlat": 36.7023967,
+    "minlon": 74.8189866,
+    "maxlat": 36.7025141,
+    "maxlon": 74.8195884
+  },
+  "nodes": [
+    298759587,
+    298759588
+  ],
+  "geometry": [
+    { "lat": 36.7023967, "lon": 74.8195884 },
+    { "lat": 36.7025141, "lon": 74.8189866 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 29909535,
+  "bounds": {
+    "minlat": 37.1600173,
+    "minlon": 75.4553871,
+    "maxlat": 37.1604760,
+    "maxlon": 75.4556375
+  },
+  "nodes": [
+    329612422,
+    2245567229
+  ],
+  "geometry": [
+    { "lat": 37.1604760, "lon": 75.4556375 },
+    { "lat": 37.1600173, "lon": 75.4553871 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1",
+    "source": "Yahoo",
+    "url": "http://www.roadtraffic-technology.com/projects/314nationaltrunk/"
+  }
+},
+{
+  "type": "way",
+  "id": 60195943,
+  "bounds": {
+    "minlat": 36.1661141,
+    "minlon": 74.1758318,
+    "maxlat": 36.1662722,
+    "maxlon": 74.1759539
+  },
+  "nodes": [
+    747675895,
+    747675873
+  ],
+  "geometry": [
+    { "lat": 36.1662722, "lon": 74.1759539 },
+    { "lat": 36.1661141, "lon": 74.1758318 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 195522677,
+  "bounds": {
+    "minlat": 36.6328650,
+    "minlon": 74.8499996,
+    "maxlat": 36.6329017,
+    "maxlon": 74.8506855
+  },
+  "nodes": [
+    2059511994,
+    2059511980
+  ],
+  "geometry": [
+    { "lat": 36.6329017, "lon": 74.8499996 },
+    { "lat": 36.6328650, "lon": 74.8506855 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "track",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 226990090,
+  "bounds": {
+    "minlat": 36.5102530,
+    "minlon": 74.8693579,
+    "maxlat": 36.5110251,
+    "maxlon": 74.8697970
+  },
+  "nodes": [
+    298758822,
+    2357245486
+  ],
+  "geometry": [
+    { "lat": 36.5102530, "lon": 74.8697970 },
+    { "lat": 36.5110251, "lon": 74.8693579 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 296329715,
+  "bounds": {
+    "minlat": 36.7264330,
+    "minlon": 74.7465787,
+    "maxlat": 36.7265542,
+    "maxlon": 74.7468181
+  },
+  "nodes": [
+    3001197564,
+    3001197559
+  ],
+  "geometry": [
+    { "lat": 36.7265542, "lon": 74.7468181 },
+    { "lat": 36.7264330, "lon": 74.7465787 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 308499389,
+  "bounds": {
+    "minlat": 36.8387013,
+    "minlon": 75.4075159,
+    "maxlat": 36.8389691,
+    "maxlon": 75.4076556
+  },
+  "nodes": [
+    3137768984,
+    13309703206,
+    3137768983
+  ],
+  "geometry": [
+    { "lat": 36.8389691, "lon": 75.4075159 },
+    { "lat": 36.8387951, "lon": 75.4076067 },
+    { "lat": 36.8387013, "lon": 75.4076556 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق سريع قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "source:imagery": "DigitalGlobe Premium",
+    "source:imagery:date": "2107-05-14",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 346673138,
+  "bounds": {
+    "minlat": 36.3214148,
+    "minlon": 74.6721893,
+    "maxlat": 36.3217227,
+    "maxlon": 74.6722459
+  },
+  "nodes": [
+    3531922033,
+    3531922034
+  ],
+  "geometry": [
+    { "lat": 36.3217227, "lon": 74.6722459 },
+    { "lat": 36.3214148, "lon": 74.6721893 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary"
+  }
+},
+{
+  "type": "way",
+  "id": 346677112,
+  "bounds": {
+    "minlat": 36.3167741,
+    "minlon": 74.6531384,
+    "maxlat": 36.3168998,
+    "maxlon": 74.6535015
+  },
+  "nodes": [
+    298757246,
+    3531960663
+  ],
+  "geometry": [
+    { "lat": 36.3167741, "lon": 74.6531384 },
+    { "lat": 36.3168998, "lon": 74.6535015 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 347720773,
+  "bounds": {
+    "minlat": 36.8194178,
+    "minlon": 74.9633423,
+    "maxlat": 36.8196120,
+    "maxlon": 74.9637201
+  },
+  "nodes": [
+    2663133173,
+    298750811
+  ],
+  "geometry": [
+    { "lat": 36.8194178, "lon": 74.9633423 },
+    { "lat": 36.8196120, "lon": 74.9637201 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 347734882,
+  "bounds": {
+    "minlat": 36.7431014,
+    "minlon": 74.8239056,
+    "maxlat": 36.7433851,
+    "maxlon": 74.8240988
+  },
+  "nodes": [
+    298759668,
+    2663380267
+  ],
+  "geometry": [
+    { "lat": 36.7431014, "lon": 74.8239056 },
+    { "lat": 36.7433851, "lon": 74.8240988 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 347766926,
+  "bounds": {
+    "minlat": 36.6140640,
+    "minlon": 74.8618307,
+    "maxlat": 36.6151522,
+    "maxlon": 74.8623540
+  },
+  "nodes": [
+    3540264500,
+    3540264501
+  ],
+  "geometry": [
+    { "lat": 36.6140640, "lon": 74.8623540 },
+    { "lat": 36.6151522, "lon": 74.8618307 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 347966998,
+  "bounds": {
+    "minlat": 36.5026979,
+    "minlon": 74.8894389,
+    "maxlat": 36.5032506,
+    "maxlon": 74.8898497
+  },
+  "nodes": [
+    3541875526,
+    3541875531
+  ],
+  "geometry": [
+    { "lat": 36.5026979, "lon": 74.8894389 },
+    { "lat": 36.5032506, "lon": 74.8898497 }
+  ],
+  "tags": {
+    "alt_name:en": "Shimshal Valley Highway",
+    "alt_name:ur": "شمشال وادی سڑک;شمشال ویلی روڈ;شمشال ویلی سڑک",
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "شاہراہِ وادی شمشال",
+    "name:en": "Shimshal Valley Road",
+    "name:ur": "شاہراہِ وادی شمشال"
+  }
+},
+{
+  "type": "way",
+  "id": 348323555,
+  "bounds": {
+    "minlat": 36.3842044,
+    "minlon": 74.8653662,
+    "maxlat": 36.3843071,
+    "maxlon": 74.8654353
+  },
+  "nodes": [
+    3544521310,
+    3544521311
+  ],
+  "geometry": [
+    { "lat": 36.3842044, "lon": 74.8653662 },
+    { "lat": 36.3843071, "lon": 74.8654353 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "source": "bing",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 348324226,
+  "bounds": {
+    "minlat": 36.7950233,
+    "minlon": 74.9132991,
+    "maxlat": 36.7951082,
+    "maxlon": 74.9134540
+  },
+  "nodes": [
+    3544528395,
+    3544528396
+  ],
+  "geometry": [
+    { "lat": 36.7951082, "lon": 74.9132991 },
+    { "lat": 36.7950233, "lon": 74.9134540 }
+  ],
+  "tags": {
+    "access": "yes",
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 348324227,
+  "bounds": {
+    "minlat": 36.7785324,
+    "minlon": 74.8679812,
+    "maxlat": 36.7785937,
+    "maxlon": 74.8681400
+  },
+  "nodes": [
+    3544527438,
+    3544527439
+  ],
+  "geometry": [
+    { "lat": 36.7785324, "lon": 74.8679812 },
+    { "lat": 36.7785937, "lon": 74.8681400 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "source": "bing",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 349269088,
+  "bounds": {
+    "minlat": 36.2530289,
+    "minlon": 74.5092275,
+    "maxlat": 36.2537975,
+    "maxlon": 74.5092989
+  },
+  "nodes": [
+    298756308,
+    10053311136,
+    298756310
+  ],
+  "geometry": [
+    { "lat": 36.2530289, "lon": 74.5092275 },
+    { "lat": 36.2534132, "lon": 74.5092989 },
+    { "lat": 36.2537975, "lon": 74.5092874 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 349272360,
+  "bounds": {
+    "minlat": 36.2498816,
+    "minlon": 74.5302245,
+    "maxlat": 36.2502164,
+    "maxlon": 74.5309786
+  },
+  "nodes": [
+    3551742404,
+    3551742405
+  ],
+  "geometry": [
+    { "lat": 36.2498816, "lon": 74.5302245 },
+    { "lat": 36.2502164, "lon": 74.5309786 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 369097272,
+  "bounds": {
+    "minlat": 36.5314563,
+    "minlon": 75.0069799,
+    "maxlat": 36.5314695,
+    "maxlon": 75.0070734
+  },
+  "nodes": [
+    3654951544,
+    3654951545
+  ],
+  "geometry": [
+    { "lat": 36.5314563, "lon": 75.0069799 },
+    { "lat": 36.5314695, "lon": 75.0070734 }
+  ],
+  "tags": {
+    "alt_name:en": "Shimshal Valley Highway",
+    "alt_name:ur": "شمشال وادی سڑک;شمشال ویلی روڈ;شمشال ویلی سڑک",
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "شاہراہِ وادی شمشال",
+    "name:en": "Shimshal Valley Road",
+    "name:ur": "شاہراہِ وادی شمشال"
+  }
+},
+{
+  "type": "way",
+  "id": 369097273,
+  "bounds": {
+    "minlat": 36.5296411,
+    "minlon": 75.0006057,
+    "maxlat": 36.5296623,
+    "maxlon": 75.0008691
+  },
+  "nodes": [
+    3654951512,
+    3654951513
+  ],
+  "geometry": [
+    { "lat": 36.5296623, "lon": 75.0006057 },
+    { "lat": 36.5296411, "lon": 75.0008691 }
+  ],
+  "tags": {
+    "alt_name:en": "Shimshal Valley Highway",
+    "alt_name:ur": "شمشال وادی سڑک;شمشال ویلی روڈ;شمشال ویلی سڑک",
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "شاہراہِ وادی شمشال",
+    "name:en": "Shimshal Valley Road",
+    "name:ur": "شاہراہِ وادی شمشال"
+  }
+},
+{
+  "type": "way",
+  "id": 379851654,
+  "bounds": {
+    "minlat": 36.6885564,
+    "minlon": 74.8171896,
+    "maxlat": 36.6888590,
+    "maxlon": 74.8177099
+  },
+  "nodes": [
+    3831979106,
+    2059511976,
+    2059511990
+  ],
+  "geometry": [
+    { "lat": 36.6885564, "lon": 74.8171896 },
+    { "lat": 36.6886955, "lon": 74.8173843 },
+    { "lat": 36.6888590, "lon": 74.8177099 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 395947090,
+  "bounds": {
+    "minlat": 36.3231988,
+    "minlon": 74.6718205,
+    "maxlat": 36.3232219,
+    "maxlon": 74.6718974
+  },
+  "nodes": [
+    3987499457,
+    3987499356
+  ],
+  "geometry": [
+    { "lat": 36.3232219, "lon": 74.6718205 },
+    { "lat": 36.3231988, "lon": 74.6718974 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 395947590,
+  "bounds": {
+    "minlat": 36.4613843,
+    "minlon": 74.8932436,
+    "maxlat": 36.4616877,
+    "maxlon": 74.8933967
+  },
+  "nodes": [
+    3987503056,
+    3987503457
+  ],
+  "geometry": [
+    { "lat": 36.4613843, "lon": 74.8933967 },
+    { "lat": 36.4616877, "lon": 74.8932436 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 398304225,
+  "bounds": {
+    "minlat": 36.0269004,
+    "minlon": 74.5546467,
+    "maxlat": 36.0272066,
+    "maxlon": 74.5553949
+  },
+  "nodes": [
+    4010733688,
+    4010733610
+  ],
+  "geometry": [
+    { "lat": 36.0272066, "lon": 74.5546467 },
+    { "lat": 36.0269004, "lon": 74.5553949 }
+  ],
+  "tags": {
+    "bridge": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 399939634,
+  "bounds": {
+    "minlat": 36.3019497,
+    "minlon": 74.6626807,
+    "maxlat": 36.3020206,
+    "maxlon": 74.6628662
+  },
+  "nodes": [
+    4026031440,
+    4026031435
+  ],
+  "geometry": [
+    { "lat": 36.3020206, "lon": 74.6626807 },
+    { "lat": 36.3019497, "lon": 74.6628662 }
+  ],
+  "tags": {
+    "bridge": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 400397558,
+  "bounds": {
+    "minlat": 36.2570359,
+    "minlon": 74.7517547,
+    "maxlat": 36.2570429,
+    "maxlon": 74.7518980
+  },
+  "nodes": [
+    4029612203,
+    4029612205
+  ],
+  "geometry": [
+    { "lat": 36.2570359, "lon": 74.7517547 },
+    { "lat": 36.2570429, "lon": 74.7518980 }
+  ],
+  "tags": {
+    "bridge": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 401134053,
+  "bounds": {
+    "minlat": 36.8201314,
+    "minlon": 74.5486282,
+    "maxlat": 36.8204056,
+    "maxlon": 74.5487296
+  },
+  "nodes": [
+    4035905939,
+    4035905925
+  ],
+  "geometry": [
+    { "lat": 36.8204056, "lon": 74.5486282 },
+    { "lat": 36.8201314, "lon": 74.5487296 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 403112100,
+  "bounds": {
+    "minlat": 37.1542225,
+    "minlon": 74.7539042,
+    "maxlat": 37.1542267,
+    "maxlon": 74.7539981
+  },
+  "nodes": [
+    4054914951,
+    4054914952
+  ],
+  "geometry": [
+    { "lat": 37.1542225, "lon": 74.7539981 },
+    { "lat": 37.1542267, "lon": 74.7539042 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "科克吐鲁克公路 كۆكتۈرۈك يولى",
+    "name:ug": "كۆكتۈرۈك يولى",
+    "name:zh": "科克吐鲁克公路",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 403112101,
+  "bounds": {
+    "minlat": 37.1588955,
+    "minlon": 74.6606626,
+    "maxlat": 37.1592995,
+    "maxlon": 74.6610569
+  },
+  "nodes": [
+    4054915106,
+    4054915099
+  ],
+  "geometry": [
+    { "lat": 37.1592995, "lon": 74.6610569 },
+    { "lat": 37.1588955, "lon": 74.6606626 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "科克吐鲁克公路",
+    "name:en": "Karachukar Highway",
+    "source": "bing",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 403112102,
+  "bounds": {
+    "minlat": 37.1648688,
+    "minlon": 74.8036632,
+    "maxlat": 37.1649180,
+    "maxlon": 74.8037209
+  },
+  "nodes": [
+    4054915128,
+    4054915127
+  ],
+  "geometry": [
+    { "lat": 37.1649180, "lon": 74.8037209 },
+    { "lat": 37.1648688, "lon": 74.8036632 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "科克吐鲁克公路",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 403112103,
+  "bounds": {
+    "minlat": 37.1520870,
+    "minlon": 74.7148421,
+    "maxlat": 37.1520971,
+    "maxlon": 74.7154332
+  },
+  "nodes": [
+    4054914764,
+    3807545768
+  ],
+  "geometry": [
+    { "lat": 37.1520971, "lon": 74.7154332 },
+    { "lat": 37.1520870, "lon": 74.7148421 }
+  ],
+  "tags": {
+    "alt_name:en": "Keketuluke Road",
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "科克吐鲁克公路 كۆكتۈرۈك يولى",
+    "name:en": "Koktorok Road",
+    "name:ug": "كۆكتۈرۈك يولى",
+    "name:zh": "科克吐鲁克公路",
+    "name:zh-Latn-pinyin": "Kē kè tǔ lǔ kè gōnglù",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 413129704,
+  "bounds": {
+    "minlat": 36.3620120,
+    "minlon": 74.8610274,
+    "maxlat": 36.3627227,
+    "maxlon": 74.8620976
+  },
+  "nodes": [
+    4144612079,
+    4144612080
+  ],
+  "geometry": [
+    { "lat": 36.3620120, "lon": 74.8610274 },
+    { "lat": 36.3627227, "lon": 74.8620976 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "highway_1": "motorway_junction",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "ref": "N-35",
+    "start_date": "2015-09-14"
+  }
+},
+{
+  "type": "way",
+  "id": 413129706,
+  "bounds": {
+    "minlat": 36.3700919,
+    "minlon": 74.8650831,
+    "maxlat": 36.3743686,
+    "maxlon": 74.8656008
+  },
+  "nodes": [
+    4144614692,
+    12168607621,
+    12168607622,
+    12168607624,
+    12168607623,
+    12168607625,
+    12168607632,
+    12168607626,
+    12168607631,
+    12168607630,
+    12168607629,
+    12168607628,
+    4144614696
+  ],
+  "geometry": [
+    { "lat": 36.3700919, "lon": 74.8650992 },
+    { "lat": 36.3703363, "lon": 74.8650965 },
+    { "lat": 36.3704961, "lon": 74.8650831 },
+    { "lat": 36.3706646, "lon": 74.8650911 },
+    { "lat": 36.3709173, "lon": 74.8651153 },
+    { "lat": 36.3711397, "lon": 74.8651421 },
+    { "lat": 36.3722995, "lon": 74.8652682 },
+    { "lat": 36.3728674, "lon": 74.8653352 },
+    { "lat": 36.3734289, "lon": 74.8654130 },
+    { "lat": 36.3737054, "lon": 74.8654613 },
+    { "lat": 36.3739343, "lon": 74.8655149 },
+    { "lat": 36.3741783, "lon": 74.8655605 },
+    { "lat": 36.3743686, "lon": 74.8656008 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "highway_1": "motorway_junction",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "ref": "N-35",
+    "start_date": "2015-09-14"
+  }
+},
+{
+  "type": "way",
+  "id": 413129709,
+  "bounds": {
+    "minlat": 36.3616620,
+    "minlon": 74.8639116,
+    "maxlat": 36.3617368,
+    "maxlon": 74.8639153
+  },
+  "nodes": [
+    4144612077,
+    4144612078
+  ],
+  "geometry": [
+    { "lat": 36.3616620, "lon": 74.8639116 },
+    { "lat": 36.3617368, "lon": 74.8639153 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 435002097,
+  "bounds": {
+    "minlat": 37.1616510,
+    "minlon": 74.8193529,
+    "maxlat": 37.1622135,
+    "maxlon": 74.8193610
+  },
+  "nodes": [
+    4329376772,
+    4329376776
+  ],
+  "geometry": [
+    { "lat": 37.1616510, "lon": 74.8193529 },
+    { "lat": 37.1622135, "lon": 74.8193610 }
+  ],
+  "tags": {
+    "alt_name": "卡克五桥",
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "塔拉望库尔苏桥",
+    "name:zh-Latn-pinyin": "Kē kè tǔ lǔ kè gōnglù"
+  }
+},
+{
+  "type": "way",
+  "id": 435002100,
+  "bounds": {
+    "minlat": 37.1158797,
+    "minlon": 74.9972015,
+    "maxlat": 37.1159326,
+    "maxlon": 74.9975878
+  },
+  "nodes": [
+    2245566674,
+    2245566670
+  ],
+  "geometry": [
+    { "lat": 37.1159326, "lon": 74.9975878 },
+    { "lat": 37.1158797, "lon": 74.9972015 }
+  ],
+  "tags": {
+    "alt_name:en": "Keketuluke Road",
+    "bridge": "yes",
+    "highway": "tertiary",
+    "name": "卡克四桥",
+    "name:zh-Latn-pinyin": "Kē kè tǔ lǔ kè gōnglù"
+  }
+},
+{
+  "type": "way",
+  "id": 438380811,
+  "bounds": {
+    "minlat": 36.2385544,
+    "minlon": 74.4432673,
+    "maxlat": 36.2385934,
+    "maxlon": 74.4434658
+  },
+  "nodes": [
+    4361264372,
+    4361264373
+  ],
+  "geometry": [
+    { "lat": 36.2385544, "lon": 74.4432673 },
+    { "lat": 36.2385934, "lon": 74.4434658 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 438380812,
+  "bounds": {
+    "minlat": 36.2394360,
+    "minlon": 74.4884741,
+    "maxlat": 36.2395574,
+    "maxlon": 74.4889845
+  },
+  "nodes": [
+    4361264382,
+    3551717192
+  ],
+  "geometry": [
+    { "lat": 36.2395574, "lon": 74.4884741 },
+    { "lat": 36.2394360, "lon": 74.4889845 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 438380813,
+  "bounds": {
+    "minlat": 36.2398703,
+    "minlon": 74.3899557,
+    "maxlat": 36.2399044,
+    "maxlon": 74.3901106
+  },
+  "nodes": [
+    4361264384,
+    298755575
+  ],
+  "geometry": [
+    { "lat": 36.2399044, "lon": 74.3899557 },
+    { "lat": 36.2398703, "lon": 74.3901106 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 438380814,
+  "bounds": {
+    "minlat": 36.2335062,
+    "minlon": 74.4288013,
+    "maxlat": 36.2335335,
+    "maxlon": 74.4290147
+  },
+  "nodes": [
+    298755685,
+    3551717369,
+    3551717368
+  ],
+  "geometry": [
+    { "lat": 36.2335335, "lon": 74.4288013 },
+    { "lat": 36.2335062, "lon": 74.4289178 },
+    { "lat": 36.2335067, "lon": 74.4290147 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 438380820,
+  "bounds": {
+    "minlat": 36.2433517,
+    "minlon": 74.4307590,
+    "maxlat": 36.2436089,
+    "maxlon": 74.4311262
+  },
+  "nodes": [
+    4023533442,
+    6838887541,
+    4023533607
+  ],
+  "geometry": [
+    { "lat": 36.2433517, "lon": 74.4307590 },
+    { "lat": 36.2434758, "lon": 74.4309277 },
+    { "lat": 36.2436089, "lon": 74.4311262 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 438513773,
+  "bounds": {
+    "minlat": 36.4076703,
+    "minlon": 74.8752362,
+    "maxlat": 36.4080255,
+    "maxlon": 74.8755900
+  },
+  "nodes": [
+    4362528691,
+    4362528692
+  ],
+  "geometry": [
+    { "lat": 36.4076703, "lon": 74.8752362 },
+    { "lat": 36.4080255, "lon": 74.8755900 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 438513774,
+  "bounds": {
+    "minlat": 36.5768721,
+    "minlon": 74.7998151,
+    "maxlat": 36.5771310,
+    "maxlon": 74.7999148
+  },
+  "nodes": [
+    4362528720,
+    4034048285
+  ],
+  "geometry": [
+    { "lat": 36.5768721, "lon": 74.7998151 },
+    { "lat": 36.5771310, "lon": 74.7999148 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 438513775,
+  "bounds": {
+    "minlat": 36.5830069,
+    "minlon": 74.8351904,
+    "maxlat": 36.5831546,
+    "maxlon": 74.8358859
+  },
+  "nodes": [
+    3806780909,
+    298759281
+  ],
+  "geometry": [
+    { "lat": 36.5830069, "lon": 74.8351904 },
+    { "lat": 36.5831546, "lon": 74.8358859 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 438513776,
+  "bounds": {
+    "minlat": 36.5824089,
+    "minlon": 74.8139001,
+    "maxlat": 36.5824936,
+    "maxlon": 74.8140689
+  },
+  "nodes": [
+    4034048339,
+    4034048341
+  ],
+  "geometry": [
+    { "lat": 36.5824089, "lon": 74.8139001 },
+    { "lat": 36.5824936, "lon": 74.8140689 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 438513782,
+  "bounds": {
+    "minlat": 36.5291626,
+    "minlon": 75.0197621,
+    "maxlat": 36.5295761,
+    "maxlon": 75.0202033
+  },
+  "nodes": [
+    3654951644,
+    3654951645
+  ],
+  "geometry": [
+    { "lat": 36.5291626, "lon": 75.0197621 },
+    { "lat": 36.5295761, "lon": 75.0202033 }
+  ],
+  "tags": {
+    "alt_name:en": "Shimshal Valley Highway",
+    "alt_name:ur": "شمشال وادی سڑک;شمشال ویلی روڈ;شمشال ویلی سڑک",
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "شاہراہِ وادی شمشال",
+    "name:en": "Shimshal Valley Road",
+    "name:ur": "شاہراہِ وادی شمشال"
+  }
+},
+{
+  "type": "way",
+  "id": 438513785,
+  "bounds": {
+    "minlat": 36.6350985,
+    "minlon": 74.9370199,
+    "maxlat": 36.6351566,
+    "maxlon": 74.9370672
+  },
+  "nodes": [
+    4362528724,
+    4362528723
+  ],
+  "geometry": [
+    { "lat": 36.6351566, "lon": 74.9370672 },
+    { "lat": 36.6350985, "lon": 74.9370199 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 438513786,
+  "bounds": {
+    "minlat": 36.6359997,
+    "minlon": 74.9364245,
+    "maxlat": 36.6360127,
+    "maxlon": 74.9364856
+  },
+  "nodes": [
+    4362528725,
+    4362528726
+  ],
+  "geometry": [
+    { "lat": 36.6359997, "lon": 74.9364245 },
+    { "lat": 36.6360127, "lon": 74.9364856 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 438513788,
+  "bounds": {
+    "minlat": 36.4945945,
+    "minlon": 75.2307679,
+    "maxlat": 36.4951271,
+    "maxlon": 75.2307726
+  },
+  "nodes": [
+    4033010661,
+    4033010654
+  ],
+  "geometry": [
+    { "lat": 36.4951271, "lon": 75.2307726 },
+    { "lat": 36.4945945, "lon": 75.2307679 }
+  ],
+  "tags": {
+    "alt_name:en": "Shimshal Valley Highway",
+    "alt_name:ur": "شمشال وادی سڑک;شمشال ویلی روڈ;شمشال ویلی سڑک",
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1",
+    "name": "شاہراہِ وادی شمشال",
+    "name:en": "Shimshal Valley Road",
+    "name:ur": "شاہراہِ وادی شمشال"
+  }
+},
+{
+  "type": "way",
+  "id": 438513789,
+  "bounds": {
+    "minlat": 36.5437578,
+    "minlon": 74.8092226,
+    "maxlat": 36.5445796,
+    "maxlon": 74.8092235
+  },
+  "nodes": [
+    4034044415,
+    4034044422
+  ],
+  "geometry": [
+    { "lat": 36.5437578, "lon": 74.8092235 },
+    { "lat": 36.5445796, "lon": 74.8092226 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 439145645,
+  "bounds": {
+    "minlat": 36.4466114,
+    "minlon": 74.8998861,
+    "maxlat": 36.4484874,
+    "maxlon": 74.9011695
+  },
+  "nodes": [
+    4367741560,
+    10971407635,
+    4367741512
+  ],
+  "geometry": [
+    { "lat": 36.4484874, "lon": 74.8998861 },
+    { "lat": 36.4474911, "lon": 74.9005677 },
+    { "lat": 36.4466114, "lon": 74.9011695 }
+  ],
+  "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "layer": "1",
+    "motorcar": "no",
+    "name": "Passu Suspension Bridge",
+    "source": "bing"
+  }
+},
+{
+  "type": "way",
+  "id": 439145647,
+  "bounds": {
+    "minlat": 36.3845904,
+    "minlon": 74.8638551,
+    "maxlat": 36.3846912,
+    "maxlon": 74.8639314
+  },
+  "nodes": [
+    4032376312,
+    4032376318
+  ],
+  "geometry": [
+    { "lat": 36.3845904, "lon": 74.8638551 },
+    { "lat": 36.3846912, "lon": 74.8639314 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 439145648,
+  "bounds": {
+    "minlat": 36.3952167,
+    "minlon": 74.8519481,
+    "maxlat": 36.3952500,
+    "maxlon": 74.8519919
+  },
+  "nodes": [
+    4032377177,
+    4032377178
+  ],
+  "geometry": [
+    { "lat": 36.3952167, "lon": 74.8519481 },
+    { "lat": 36.3952500, "lon": 74.8519919 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 449718749,
+  "bounds": {
+    "minlat": 36.1709077,
+    "minlon": 74.9901982,
+    "maxlat": 36.1710380,
+    "maxlon": 74.9904239
+  },
+  "nodes": [
+    4466545522,
+    4466545521
+  ],
+  "geometry": [
+    { "lat": 36.1710380, "lon": 74.9901982 },
+    { "lat": 36.1709077, "lon": 74.9904239 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 458710741,
+  "bounds": {
+    "minlat": 37.1227684,
+    "minlon": 75.0648462,
+    "maxlat": 37.1227895,
+    "maxlon": 75.0651420
+  },
+  "nodes": [
+    4546687668,
+    4546687667
+  ],
+  "geometry": [
+    { "lat": 37.1227684, "lon": 75.0651420 },
+    { "lat": 37.1227895, "lon": 75.0648462 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 458710744,
+  "bounds": {
+    "minlat": 37.1251712,
+    "minlon": 75.0654458,
+    "maxlat": 37.1252017,
+    "maxlon": 75.0658038
+  },
+  "nodes": [
+    2245566917,
+    2245566915
+  ],
+  "geometry": [
+    { "lat": 37.1252017, "lon": 75.0658038 },
+    { "lat": 37.1251712, "lon": 75.0654458 }
+  ],
+  "tags": {
+    "alt_name": "明铁盖二桥",
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "卡克三桥",
+    "name:zh-Latn-pinyin": "Kē kè tǔ lǔ kè gōnglù"
+  }
+},
+{
+  "type": "way",
+  "id": 461840523,
+  "bounds": {
+    "minlat": 36.7877954,
+    "minlon": 74.7664386,
+    "maxlat": 36.7878191,
+    "maxlon": 74.7665098
+  },
+  "nodes": [
+    4572865495,
+    4572865494
+  ],
+  "geometry": [
+    { "lat": 36.7877954, "lon": 74.7664386 },
+    { "lat": 36.7878191, "lon": 74.7665098 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 461840526,
+  "bounds": {
+    "minlat": 36.7902588,
+    "minlon": 74.7679038,
+    "maxlat": 36.7903084,
+    "maxlon": 74.7680013
+  },
+  "nodes": [
+    4035966683,
+    4572865496
+  ],
+  "geometry": [
+    { "lat": 36.7902588, "lon": 74.7680013 },
+    { "lat": 36.7903084, "lon": 74.7679038 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 461840528,
+  "bounds": {
+    "minlat": 36.9409881,
+    "minlon": 74.7280360,
+    "maxlat": 36.9410135,
+    "maxlon": 74.7281646
+  },
+  "nodes": [
+    2928173367,
+    4572865497
+  ],
+  "geometry": [
+    { "lat": 36.9410135, "lon": 74.7280360 },
+    { "lat": 36.9409881, "lon": 74.7281646 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485063516,
+  "bounds": {
+    "minlat": 36.8197769,
+    "minlon": 74.5599959,
+    "maxlat": 36.8199678,
+    "maxlon": 74.5602036
+  },
+  "nodes": [
+    4778254053,
+    4778254054
+  ],
+  "geometry": [
+    { "lat": 36.8197769, "lon": 74.5599959 },
+    { "lat": 36.8199678, "lon": 74.5602036 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485063518,
+  "bounds": {
+    "minlat": 36.8197474,
+    "minlon": 74.5615886,
+    "maxlat": 36.8197850,
+    "maxlon": 74.5616329
+  },
+  "nodes": [
+    4778254066,
+    4778254067
+  ],
+  "geometry": [
+    { "lat": 36.8197850, "lon": 74.5616329 },
+    { "lat": 36.8197474, "lon": 74.5615886 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485063528,
+  "bounds": {
+    "minlat": 36.8252691,
+    "minlon": 74.5212089,
+    "maxlat": 36.8252790,
+    "maxlon": 74.5213361
+  },
+  "nodes": [
+    4778254076,
+    4035924480
+  ],
+  "geometry": [
+    { "lat": 36.8252790, "lon": 74.5213361 },
+    { "lat": 36.8252691, "lon": 74.5212089 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485063530,
+  "bounds": {
+    "minlat": 36.8255419,
+    "minlon": 74.5135161,
+    "maxlat": 36.8257566,
+    "maxlon": 74.5138564
+  },
+  "nodes": [
+    9074551865,
+    9074551866
+  ],
+  "geometry": [
+    { "lat": 36.8255419, "lon": 74.5135161 },
+    { "lat": 36.8257566, "lon": 74.5138564 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Rasht-e-Pur Bridge"
+  }
+},
+{
+  "type": "way",
+  "id": 485063532,
+  "bounds": {
+    "minlat": 36.8254115,
+    "minlon": 74.5042336,
+    "maxlat": 36.8254303,
+    "maxlon": 74.5042624
+  },
+  "nodes": [
+    4778254083,
+    4778254084
+  ],
+  "geometry": [
+    { "lat": 36.8254115, "lon": 74.5042624 },
+    { "lat": 36.8254303, "lon": 74.5042336 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485063533,
+  "bounds": {
+    "minlat": 36.8307917,
+    "minlon": 74.4932064,
+    "maxlat": 36.8310763,
+    "maxlon": 74.4932281
+  },
+  "nodes": [
+    4035946484,
+    4035946485
+  ],
+  "geometry": [
+    { "lat": 36.8307917, "lon": 74.4932064 },
+    { "lat": 36.8310763, "lon": 74.4932281 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485063536,
+  "bounds": {
+    "minlat": 36.8328038,
+    "minlon": 74.4606851,
+    "maxlat": 36.8329859,
+    "maxlon": 74.4609229
+  },
+  "nodes": [
+    4035968751,
+    4035968764
+  ],
+  "geometry": [
+    { "lat": 36.8328038, "lon": 74.4606851 },
+    { "lat": 36.8329859, "lon": 74.4609229 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485063537,
+  "bounds": {
+    "minlat": 36.8322860,
+    "minlon": 74.4578474,
+    "maxlat": 36.8323137,
+    "maxlon": 74.4578876
+  },
+  "nodes": [
+    4778254090,
+    4778254091
+  ],
+  "geometry": [
+    { "lat": 36.8322860, "lon": 74.4578876 },
+    { "lat": 36.8323137, "lon": 74.4578474 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485063541,
+  "bounds": {
+    "minlat": 36.8328535,
+    "minlon": 74.4423821,
+    "maxlat": 36.8330375,
+    "maxlon": 74.4424786
+  },
+  "nodes": [
+    4778254092,
+    4778254093
+  ],
+  "geometry": [
+    { "lat": 36.8328535, "lon": 74.4424786 },
+    { "lat": 36.8330375, "lon": 74.4423821 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485063557,
+  "bounds": {
+    "minlat": 36.8461158,
+    "minlon": 74.7074036,
+    "maxlat": 36.8461180,
+    "maxlon": 74.7075163
+  },
+  "nodes": [
+    4778255476,
+    4778255475
+  ],
+  "geometry": [
+    { "lat": 36.8461158, "lon": 74.7074036 },
+    { "lat": 36.8461180, "lon": 74.7075163 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485063646,
+  "bounds": {
+    "minlat": 36.8120784,
+    "minlon": 74.7193063,
+    "maxlat": 36.8121375,
+    "maxlon": 74.7197250
+  },
+  "nodes": [
+    3807610324,
+    3807610325
+  ],
+  "geometry": [
+    { "lat": 36.8121375, "lon": 74.7197250 },
+    { "lat": 36.8120784, "lon": 74.7193063 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485063651,
+  "bounds": {
+    "minlat": 36.8187171,
+    "minlon": 74.7132542,
+    "maxlat": 36.8188532,
+    "maxlon": 74.7133135
+  },
+  "nodes": [
+    3807610351,
+    3807610352
+  ],
+  "geometry": [
+    { "lat": 36.8187171, "lon": 74.7133135 },
+    { "lat": 36.8188532, "lon": 74.7132542 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485690940,
+  "bounds": {
+    "minlat": 36.0216619,
+    "minlon": 74.4420679,
+    "maxlat": 36.0217400,
+    "maxlon": 74.4421457
+  },
+  "nodes": [
+    4784644247,
+    4784644246
+  ],
+  "geometry": [
+    { "lat": 36.0217400, "lon": 74.4420679 },
+    { "lat": 36.0216619, "lon": 74.4421457 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485690943,
+  "bounds": {
+    "minlat": 36.0150846,
+    "minlon": 74.4306229,
+    "maxlat": 36.0151790,
+    "maxlon": 74.4306698
+  },
+  "nodes": [
+    4784644392,
+    4784644391
+  ],
+  "geometry": [
+    { "lat": 36.0151790, "lon": 74.4306229 },
+    { "lat": 36.0150846, "lon": 74.4306698 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 485690958,
+  "bounds": {
+    "minlat": 36.0070922,
+    "minlon": 74.4193536,
+    "maxlat": 36.0071291,
+    "maxlon": 74.4193858
+  },
+  "nodes": [
+    4784644769,
+    4784644768
+  ],
+  "geometry": [
+    { "lat": 36.0070922, "lon": 74.4193536 },
+    { "lat": 36.0071291, "lon": 74.4193858 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 488564147,
+  "bounds": {
+    "minlat": 36.5820594,
+    "minlon": 74.7932677,
+    "maxlat": 36.5821049,
+    "maxlon": 74.7933971
+  },
+  "nodes": [
+    4034091823,
+    4034091817
+  ],
+  "geometry": [
+    { "lat": 36.5821049, "lon": 74.7933971 },
+    { "lat": 36.5820594, "lon": 74.7932677 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 488564150,
+  "bounds": {
+    "minlat": 36.5675418,
+    "minlon": 74.7902142,
+    "maxlat": 36.5678619,
+    "maxlon": 74.7902235
+  },
+  "nodes": [
+    298759208,
+    3806780952
+  ],
+  "geometry": [
+    { "lat": 36.5675418, "lon": 74.7902235 },
+    { "lat": 36.5678619, "lon": 74.7902142 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 490580843,
+  "bounds": {
+    "minlat": 36.5032549,
+    "minlon": 75.0908547,
+    "maxlat": 36.5033045,
+    "maxlon": 75.0917247
+  },
+  "nodes": [
+    4827584034,
+    4827584035
+  ],
+  "geometry": [
+    { "lat": 36.5033045, "lon": 75.0908547 },
+    { "lat": 36.5032549, "lon": 75.0917247 }
+  ],
+  "tags": {
+    "alt_name:en": "Shimshal Valley Highway",
+    "alt_name:ur": "شمشال وادی سڑک;شمشال ویلی روڈ;شمشال ویلی سڑک",
+    "bridge": "yes",
+    "highway": "secondary",
+    "name": "شاہراہِ وادی شمشال",
+    "name:en": "Shimshal Valley Road",
+    "name:ur": "شاہراہِ وادی شمشال"
+  }
+},
+{
+  "type": "way",
+  "id": 490580846,
+  "bounds": {
+    "minlat": 36.4881419,
+    "minlon": 75.1388126,
+    "maxlat": 36.4890045,
+    "maxlon": 75.1388340
+  },
+  "nodes": [
+    4827584047,
+    4827584048
+  ],
+  "geometry": [
+    { "lat": 36.4890045, "lon": 75.1388126 },
+    { "lat": 36.4881419, "lon": 75.1388340 }
+  ],
+  "tags": {
+    "alt_name:en": "Shimshal Valley Highway",
+    "alt_name:ur": "شمشال وادی سڑک;شمشال ویلی روڈ;شمشال ویلی سڑک",
+    "bridge": "yes",
+    "highway": "secondary",
+    "name": "شاہراہِ وادی شمشال",
+    "name:en": "Shimshal Valley Road",
+    "name:ur": "شاہراہِ وادی شمشال"
+  }
+},
+{
+  "type": "way",
+  "id": 490580849,
+  "bounds": {
+    "minlat": 36.4958529,
+    "minlon": 75.2076680,
+    "maxlat": 36.4959949,
+    "maxlon": 75.2079922
+  },
+  "nodes": [
+    4827585520,
+    4827585621
+  ],
+  "geometry": [
+    { "lat": 36.4958529, "lon": 75.2079922 },
+    { "lat": 36.4959949, "lon": 75.2076680 }
+  ],
+  "tags": {
+    "alt_name:en": "Shimshal Valley Highway",
+    "alt_name:ur": "شمشال وادی سڑک;شمشال ویلی روڈ;شمشال ویلی سڑک",
+    "bridge": "yes",
+    "highway": "secondary",
+    "name": "شاہراہِ وادی شمشال",
+    "name:en": "Shimshal Valley Road",
+    "name:ur": "شاہراہِ وادی شمشال"
+  }
+},
+{
+  "type": "way",
+  "id": 493547062,
+  "bounds": {
+    "minlat": 36.8587337,
+    "minlon": 75.0726927,
+    "maxlat": 36.8593464,
+    "maxlon": 75.0727178
+  },
+  "nodes": [
+    298749671,
+    4854516991
+  ],
+  "geometry": [
+    { "lat": 36.8587337, "lon": 75.0726927 },
+    { "lat": 36.8593464, "lon": 75.0727178 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 493547084,
+  "bounds": {
+    "minlat": 36.8761169,
+    "minlon": 75.1625669,
+    "maxlat": 36.8763851,
+    "maxlon": 75.1631865
+  },
+  "nodes": [
+    298749871,
+    13279021619,
+    4854518118
+  ],
+  "geometry": [
+    { "lat": 36.8763851, "lon": 75.1625669 },
+    { "lat": 36.8761553, "lon": 75.1630979 },
+    { "lat": 36.8761169, "lon": 75.1631865 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 493547088,
+  "bounds": {
+    "minlat": 36.8614139,
+    "minlon": 75.0832379,
+    "maxlat": 36.8615513,
+    "maxlon": 75.0834846
+  },
+  "nodes": [
+    4854518439,
+    4854518438
+  ],
+  "geometry": [
+    { "lat": 36.8615513, "lon": 75.0832379 },
+    { "lat": 36.8614139, "lon": 75.0834846 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 498276910,
+  "bounds": {
+    "minlat": 36.6890783,
+    "minlon": 74.0197420,
+    "maxlat": 36.6891332,
+    "maxlon": 74.0198359
+  },
+  "nodes": [
+    4897311310,
+    4897311309
+  ],
+  "geometry": [
+    { "lat": 36.6890783, "lon": 74.0197420 },
+    { "lat": 36.6891332, "lon": 74.0198359 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 501465954,
+  "bounds": {
+    "minlat": 36.2433148,
+    "minlon": 74.3359867,
+    "maxlat": 36.2444939,
+    "maxlon": 74.3370620
+  },
+  "nodes": [
+    4922701286,
+    4922701289
+  ],
+  "geometry": [
+    { "lat": 36.2433148, "lon": 74.3370620 },
+    { "lat": 36.2444939, "lon": 74.3359867 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 501465965,
+  "bounds": {
+    "minlat": 36.2518808,
+    "minlon": 74.3209340,
+    "maxlat": 36.2519630,
+    "maxlon": 74.3213122
+  },
+  "nodes": [
+    4922702920,
+    4922702919
+  ],
+  "geometry": [
+    { "lat": 36.2519630, "lon": 74.3213122 },
+    { "lat": 36.2518808, "lon": 74.3209340 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 501465973,
+  "bounds": {
+    "minlat": 36.2775255,
+    "minlon": 74.3317353,
+    "maxlat": 36.2776747,
+    "maxlon": 74.3321255
+  },
+  "nodes": [
+    4922703233,
+    4922703234
+  ],
+  "geometry": [
+    { "lat": 36.2776747, "lon": 74.3321255 },
+    { "lat": 36.2775255, "lon": 74.3317353 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 501465980,
+  "bounds": {
+    "minlat": 36.3286230,
+    "minlon": 74.2933034,
+    "maxlat": 36.3287171,
+    "maxlon": 74.2937376
+  },
+  "nodes": [
+    4922703586,
+    4922703585
+  ],
+  "geometry": [
+    { "lat": 36.3287171, "lon": 74.2933034 },
+    { "lat": 36.3286230, "lon": 74.2937376 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 501465983,
+  "bounds": {
+    "minlat": 36.3221273,
+    "minlon": 74.2920399,
+    "maxlat": 36.3221662,
+    "maxlon": 74.2921552
+  },
+  "nodes": [
+    4922703739,
+    4922703740
+  ],
+  "geometry": [
+    { "lat": 36.3221273, "lon": 74.2921552 },
+    { "lat": 36.3221662, "lon": 74.2920399 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 501465986,
+  "bounds": {
+    "minlat": 36.3302524,
+    "minlon": 74.2880970,
+    "maxlat": 36.3304318,
+    "maxlon": 74.2881426
+  },
+  "nodes": [
+    4922703811,
+    4922703810
+  ],
+  "geometry": [
+    { "lat": 36.3302524, "lon": 74.2881426 },
+    { "lat": 36.3304318, "lon": 74.2880970 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 501465992,
+  "bounds": {
+    "minlat": 36.3495981,
+    "minlon": 74.2879710,
+    "maxlat": 36.3496240,
+    "maxlon": 74.2882606
+  },
+  "nodes": [
+    4922704161,
+    4922704160
+  ],
+  "geometry": [
+    { "lat": 36.3495981, "lon": 74.2879710 },
+    { "lat": 36.3496240, "lon": 74.2882606 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 501465996,
+  "bounds": {
+    "minlat": 36.8310856,
+    "minlon": 74.4299166,
+    "maxlat": 36.8311114,
+    "maxlon": 74.4304078
+  },
+  "nodes": [
+    3944714751,
+    3944716361
+  ],
+  "geometry": [
+    { "lat": 36.8311114, "lon": 74.4304078 },
+    { "lat": 36.8310856, "lon": 74.4299166 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 501466002,
+  "bounds": {
+    "minlat": 36.8202747,
+    "minlon": 74.3649155,
+    "maxlat": 36.8204099,
+    "maxlon": 74.3651596
+  },
+  "nodes": [
+    4922704844,
+    4922704843
+  ],
+  "geometry": [
+    { "lat": 36.8202747, "lon": 74.3649155 },
+    { "lat": 36.8204099, "lon": 74.3651596 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 501466008,
+  "bounds": {
+    "minlat": 36.8045387,
+    "minlon": 74.3598676,
+    "maxlat": 36.8046246,
+    "maxlon": 74.3600795
+  },
+  "nodes": [
+    4922705259,
+    4922705260
+  ],
+  "geometry": [
+    { "lat": 36.8045387, "lon": 74.3598676 },
+    { "lat": 36.8046246, "lon": 74.3600795 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 501466012,
+  "bounds": {
+    "minlat": 36.8247545,
+    "minlon": 74.3856392,
+    "maxlat": 36.8251140,
+    "maxlon": 74.3858045
+  },
+  "nodes": [
+    4922705450,
+    4922705449
+  ],
+  "geometry": [
+    { "lat": 36.8247545, "lon": 74.3856392 },
+    { "lat": 36.8251140, "lon": 74.3858045 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 528811848,
+  "bounds": {
+    "minlat": 36.3191478,
+    "minlon": 74.8749015,
+    "maxlat": 36.3215340,
+    "maxlon": 74.8771298
+  },
+  "nodes": [
+    3620797810,
+    12142675389,
+    12142675390,
+    12142675388,
+    12142675391,
+    3620797811,
+    12142675392,
+    6171683690,
+    6171683689,
+    12142675393,
+    9552385077,
+    6171683688,
+    12142675394,
+    3620797812,
+    6171683687
+  ],
+  "geometry": [
+    { "lat": 36.3191478, "lon": 74.8749015 },
+    { "lat": 36.3192876, "lon": 74.8750690 },
+    { "lat": 36.3194129, "lon": 74.8752151 },
+    { "lat": 36.3195307, "lon": 74.8753653 },
+    { "lat": 36.3196496, "lon": 74.8755142 },
+    { "lat": 36.3200751, "lon": 74.8760622 },
+    { "lat": 36.3201812, "lon": 74.8761888 },
+    { "lat": 36.3202937, "lon": 74.8763109 },
+    { "lat": 36.3203977, "lon": 74.8764149 },
+    { "lat": 36.3205702, "lon": 74.8765683 },
+    { "lat": 36.3207550, "lon": 74.8767025 },
+    { "lat": 36.3209481, "lon": 74.8768414 },
+    { "lat": 36.3210943, "lon": 74.8769277 },
+    { "lat": 36.3213541, "lon": 74.8770497 },
+    { "lat": 36.3215340, "lon": 74.8771298 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "highway_1": "motorway_junction",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:en": "Karakoram Highway",
+    "ref": "N-35",
+    "start_date": "2015-09-14"
+  }
+},
+{
+  "type": "way",
+  "id": 529681748,
+  "bounds": {
+    "minlat": 36.8297827,
+    "minlon": 74.4056509,
+    "maxlat": 36.8300649,
+    "maxlon": 74.4056983
+  },
+  "nodes": [
+    5145051176,
+    5145051177
+  ],
+  "geometry": [
+    { "lat": 36.8297827, "lon": 74.4056509 },
+    { "lat": 36.8300649, "lon": 74.4056983 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 585631595,
+  "bounds": {
+    "minlat": 36.4233513,
+    "minlon": 74.8815937,
+    "maxlat": 36.4242840,
+    "maxlon": 74.8834762
+  },
+  "nodes": [
+    5596117634,
+    5596117635
+  ],
+  "geometry": [
+    { "lat": 36.4242840, "lon": 74.8834762 },
+    { "lat": 36.4233513, "lon": 74.8815937 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "name": "Husseini Suspension Bridge",
+    "tourism": "attraction",
+    "wikidata": "Q51079066"
+  }
+},
+{
+  "type": "way",
+  "id": 628814184,
+  "bounds": {
+    "minlat": 37.1436082,
+    "minlon": 74.6496166,
+    "maxlat": 37.1437699,
+    "maxlon": 74.6498305
+  },
+  "nodes": [
+    5936929887,
+    3809125935
+  ],
+  "geometry": [
+    { "lat": 37.1437699, "lon": 74.6498305 },
+    { "lat": 37.1436082, "lon": 74.6496166 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "瓦赫吉尔山口公路",
+    "source": "bing"
+  }
+},
+{
+  "type": "way",
+  "id": 645052180,
+  "bounds": {
+    "minlat": 36.4638804,
+    "minlon": 75.4525601,
+    "maxlat": 36.4641309,
+    "maxlon": 75.4527901
+  },
+  "nodes": [
+    6064675373,
+    6064675372
+  ],
+  "geometry": [
+    { "lat": 36.4638804, "lon": 75.4525601 },
+    { "lat": 36.4641309, "lon": 75.4527901 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 651792483,
+  "bounds": {
+    "minlat": 36.3085107,
+    "minlon": 74.6622258,
+    "maxlat": 36.3097726,
+    "maxlon": 74.6623565
+  },
+  "nodes": [
+    6111667555,
+    6111667556,
+    6111667557
+  ],
+  "geometry": [
+    { "lat": 36.3085107, "lon": 74.6622258 },
+    { "lat": 36.3094121, "lon": 74.6623041 },
+    { "lat": 36.3097726, "lon": 74.6623565 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 651792493,
+  "bounds": {
+    "minlat": 36.2897652,
+    "minlon": 74.6135731,
+    "maxlat": 36.2905993,
+    "maxlon": 74.6141889
+  },
+  "nodes": [
+    6111668043,
+    6111668044
+  ],
+  "geometry": [
+    { "lat": 36.2905993, "lon": 74.6141889 },
+    { "lat": 36.2897652, "lon": 74.6135731 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 651792498,
+  "bounds": {
+    "minlat": 36.3002748,
+    "minlon": 74.5865854,
+    "maxlat": 36.3010093,
+    "maxlon": 74.5872903
+  },
+  "nodes": [
+    298756933,
+    6111668213
+  ],
+  "geometry": [
+    { "lat": 36.3002748, "lon": 74.5865854 },
+    { "lat": 36.3010093, "lon": 74.5872903 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "damage": "complete",
+    "damaged": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 677611247,
+  "bounds": {
+    "minlat": 37.1663173,
+    "minlon": 74.8637191,
+    "maxlat": 37.1663291,
+    "maxlon": 74.8638815
+  },
+  "nodes": [
+    6344640045,
+    6344640046
+  ],
+  "geometry": [
+    { "lat": 37.1663173, "lon": 74.8638815 },
+    { "lat": 37.1663291, "lon": 74.8637191 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "托克满苏山口公路",
+    "name:ps": "افغان - چين لاﺭه",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 677611249,
+  "bounds": {
+    "minlat": 37.1733312,
+    "minlon": 74.6275424,
+    "maxlat": 37.1733628,
+    "maxlon": 74.6276486
+  },
+  "nodes": [
+    6344640103,
+    6344640102
+  ],
+  "geometry": [
+    { "lat": 37.1733312, "lon": 74.6276486 },
+    { "lat": 37.1733628, "lon": 74.6275424 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "科克吐鲁克沟公路",
+    "name:en": "Koktorok Road"
+  }
+},
+{
+  "type": "way",
+  "id": 677611251,
+  "bounds": {
+    "minlat": 37.1397239,
+    "minlon": 74.5528589,
+    "maxlat": 37.1397337,
+    "maxlon": 74.5529418
+  },
+  "nodes": [
+    4879503197,
+    6344640104
+  ],
+  "geometry": [
+    { "lat": 37.1397239, "lon": 74.5529418 },
+    { "lat": 37.1397337, "lon": 74.5528589 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "瓦赫吉尔山口公路"
+  }
+},
+{
+  "type": "way",
+  "id": 688614928,
+  "bounds": {
+    "minlat": 37.0442106,
+    "minlon": 74.3315779,
+    "maxlat": 37.0442309,
+    "maxlon": 74.3316797
+  },
+  "nodes": [
+    6457987094,
+    6457987095
+  ],
+  "geometry": [
+    { "lat": 37.0442106, "lon": 74.3315779 },
+    { "lat": 37.0442309, "lon": 74.3316797 }
+  ],
+  "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "highway": "tertiary",
+    "horse": "no",
+    "layer": "1",
+    "motor_vehicle": "no",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 734380817,
+  "bounds": {
+    "minlat": 36.2407263,
+    "minlon": 74.5343206,
+    "maxlat": 36.2408704,
+    "maxlon": 74.5343819
+  },
+  "nodes": [
+    4025866560,
+    4025866566
+  ],
+  "geometry": [
+    { "lat": 36.2407263, "lon": 74.5343206 },
+    { "lat": 36.2408704, "lon": 74.5343819 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 734380819,
+  "bounds": {
+    "minlat": 36.2365307,
+    "minlon": 74.3037504,
+    "maxlat": 36.2373744,
+    "maxlon": 74.3049762
+  },
+  "nodes": [
+    6877347008,
+    6877347007
+  ],
+  "geometry": [
+    { "lat": 36.2365307, "lon": 74.3049762 },
+    { "lat": 36.2373744, "lon": 74.3037504 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 734380822,
+  "bounds": {
+    "minlat": 36.1632319,
+    "minlon": 74.2836338,
+    "maxlat": 36.1632536,
+    "maxlon": 74.2848489
+  },
+  "nodes": [
+    6877347089,
+    6877347088
+  ],
+  "geometry": [
+    { "lat": 36.1632319, "lon": 74.2848489 },
+    { "lat": 36.1632536, "lon": 74.2836338 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 734380826,
+  "bounds": {
+    "minlat": 36.1591261,
+    "minlon": 74.2869651,
+    "maxlat": 36.1591738,
+    "maxlon": 74.2869812
+  },
+  "nodes": [
+    6877347117,
+    6877347116
+  ],
+  "geometry": [
+    { "lat": 36.1591261, "lon": 74.2869812 },
+    { "lat": 36.1591738, "lon": 74.2869651 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 734380828,
+  "bounds": {
+    "minlat": 36.1842876,
+    "minlon": 74.2948604,
+    "maxlat": 36.1844516,
+    "maxlon": 74.2954018
+  },
+  "nodes": [
+    6877347128,
+    298758509
+  ],
+  "geometry": [
+    { "lat": 36.1842876, "lon": 74.2948604 },
+    { "lat": 36.1844516, "lon": 74.2954018 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 744188405,
+  "bounds": {
+    "minlat": 37.1472272,
+    "minlon": 75.4668442,
+    "maxlat": 37.1474445,
+    "maxlon": 75.4672649
+  },
+  "nodes": [
+    6964919921,
+    6964919922
+  ],
+  "geometry": [
+    { "lat": 37.1474445, "lon": 75.4668442 },
+    { "lat": 37.1472272, "lon": 75.4672649 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "int_ref": "AH4",
+    "ref": "G314",
+    "source": "Yahoo",
+    "url": "http://www.roadtraffic-technology.com/projects/314nationaltrunk/"
+  }
+},
+{
+  "type": "way",
+  "id": 759787495,
+  "bounds": {
+    "minlat": 36.0913335,
+    "minlon": 74.0343903,
+    "maxlat": 36.0913513,
+    "maxlon": 74.0344683
+  },
+  "nodes": [
+    7097676126,
+    7097676125
+  ],
+  "geometry": [
+    { "lat": 36.0913335, "lon": 74.0343903 },
+    { "lat": 36.0913513, "lon": 74.0344683 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 759790331,
+  "bounds": {
+    "minlat": 36.0890151,
+    "minlon": 74.0331141,
+    "maxlat": 36.0898186,
+    "maxlon": 74.0334324
+  },
+  "nodes": [
+    7097705049,
+    8384279519,
+    7097594553
+  ],
+  "geometry": [
+    { "lat": 36.0890151, "lon": 74.0331141 },
+    { "lat": 36.0893973, "lon": 74.0332704 },
+    { "lat": 36.0898186, "lon": 74.0334324 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "description": "it is a 2nd longest suspension bridge of Ghizer",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "Sherqillah bridge"
+  }
+},
+{
+  "type": "way",
+  "id": 770277137,
+  "bounds": {
+    "minlat": 36.4410391,
+    "minlon": 75.3336676,
+    "maxlat": 36.4413995,
+    "maxlon": 75.3339224
+  },
+  "nodes": [
+    7190456080,
+    7190456001
+  ],
+  "geometry": [
+    { "lat": 36.4410391, "lon": 75.3336676 },
+    { "lat": 36.4413995, "lon": 75.3339224 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "track",
+    "layer": "1",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 814587822,
+  "bounds": {
+    "minlat": 37.1431472,
+    "minlon": 74.6506878,
+    "maxlat": 37.1432311,
+    "maxlon": 74.6506991
+  },
+  "nodes": [
+    7609110573,
+    7609110574
+  ],
+  "geometry": [
+    { "lat": 37.1432311, "lon": 74.6506991 },
+    { "lat": 37.1431472, "lon": 74.6506878 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 832274990,
+  "bounds": {
+    "minlat": 37.1616650,
+    "minlon": 74.8196170,
+    "maxlat": 37.1621743,
+    "maxlon": 74.8196772
+  },
+  "nodes": [
+    7770336575,
+    7770336576
+  ],
+  "geometry": [
+    { "lat": 37.1616650, "lon": 74.8196170 },
+    { "lat": 37.1621743, "lon": 74.8196772 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 836419272,
+  "bounds": {
+    "minlat": 37.1456819,
+    "minlon": 74.0152440,
+    "maxlat": 37.1459287,
+    "maxlon": 74.0153071
+  },
+  "nodes": [
+    3967524828,
+    3967524827
+  ],
+  "geometry": [
+    { "lat": 37.1459287, "lon": 74.0153071 },
+    { "lat": 37.1456819, "lon": 74.0152440 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "motor_vehicle": "yes",
+    "name": "سرک واخان - چین",
+    "name:es": "Corredor de Wakhan - China"
+  }
+},
+{
+  "type": "way",
+  "id": 964692171,
+  "bounds": {
+    "minlat": 36.0269126,
+    "minlon": 74.5548559,
+    "maxlat": 36.0271104,
+    "maxlon": 74.5553562
+  },
+  "nodes": [
+    8923306315,
+    8923306314
+  ],
+  "geometry": [
+    { "lat": 36.0271104, "lon": 74.5548559 },
+    { "lat": 36.0269126, "lon": 74.5553562 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 970991729,
+  "bounds": {
+    "minlat": 36.2444036,
+    "minlon": 74.4602620,
+    "maxlat": 36.2448365,
+    "maxlon": 74.4605374
+  },
+  "nodes": [
+    4025086996,
+    12154173627,
+    12154173626,
+    4025086827
+  ],
+  "geometry": [
+    { "lat": 36.2448365, "lon": 74.4602620 },
+    { "lat": 36.2446204, "lon": 74.4603726 },
+    { "lat": 36.2445274, "lon": 74.4604263 },
+    { "lat": 36.2444036, "lon": 74.4605374 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 970991732,
+  "bounds": {
+    "minlat": 36.2480529,
+    "minlon": 74.4719284,
+    "maxlat": 36.2480639,
+    "maxlon": 74.4721139
+  },
+  "nodes": [
+    4025089573,
+    4025089587
+  ],
+  "geometry": [
+    { "lat": 36.2480529, "lon": 74.4719284 },
+    { "lat": 36.2480639, "lon": 74.4721139 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 971293379,
+  "bounds": {
+    "minlat": 36.6704563,
+    "minlon": 74.8260630,
+    "maxlat": 36.6705197,
+    "maxlon": 74.8261414
+  },
+  "nodes": [
+    8989444850,
+    8989444849
+  ],
+  "geometry": [
+    { "lat": 36.6704563, "lon": 74.8261414 },
+    { "lat": 36.6705197, "lon": 74.8260630 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 971386194,
+  "bounds": {
+    "minlat": 36.3850092,
+    "minlon": 74.8555138,
+    "maxlat": 36.3850869,
+    "maxlon": 74.8555233
+  },
+  "nodes": [
+    4032376353,
+    4032376357
+  ],
+  "geometry": [
+    { "lat": 36.3850092, "lon": 74.8555138 },
+    { "lat": 36.3850869, "lon": 74.8555233 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 996021169,
+  "bounds": {
+    "minlat": 37.1694211,
+    "minlon": 75.2022853,
+    "maxlat": 37.1697583,
+    "maxlon": 75.2027717
+  },
+  "nodes": [
+    9197163508,
+    9197163509
+  ],
+  "geometry": [
+    { "lat": 37.1694211, "lon": 75.2027717 },
+    { "lat": 37.1697583, "lon": 75.2022853 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "name": "排依克河公路",
+    "source": "mapbox",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 996363447,
+  "bounds": {
+    "minlat": 36.2607551,
+    "minlon": 74.1067368,
+    "maxlat": 36.2607584,
+    "maxlon": 74.1068602
+  },
+  "nodes": [
+    9200416433,
+    9200416434
+  ],
+  "geometry": [
+    { "lat": 36.2607551, "lon": 74.1068602 },
+    { "lat": 36.2607584, "lon": 74.1067368 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "source": "GPS"
+  }
+},
+{
+  "type": "way",
+  "id": 996363449,
+  "bounds": {
+    "minlat": 36.1606090,
+    "minlon": 74.1817226,
+    "maxlat": 36.1607443,
+    "maxlon": 74.1818701
+  },
+  "nodes": [
+    298753300,
+    298753303
+  ],
+  "geometry": [
+    { "lat": 36.1606090, "lon": 74.1817226 },
+    { "lat": 36.1607443, "lon": 74.1818701 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "surface": "unpaved",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 996363451,
+  "bounds": {
+    "minlat": 36.2690716,
+    "minlon": 74.1072692,
+    "maxlat": 36.2690818,
+    "maxlon": 74.1073631
+  },
+  "nodes": [
+    9200416442,
+    9200416441
+  ],
+  "geometry": [
+    { "lat": 36.2690818, "lon": 74.1072692 },
+    { "lat": 36.2690716, "lon": 74.1073631 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "source": "GPS"
+  }
+},
+{
+  "type": "way",
+  "id": 996363459,
+  "bounds": {
+    "minlat": 36.1175947,
+    "minlon": 74.2431566,
+    "maxlat": 36.1177811,
+    "maxlon": 74.2433336
+  },
+  "nodes": [
+    9200416803,
+    298752243
+  ],
+  "geometry": [
+    { "lat": 36.1175947, "lon": 74.2431566 },
+    { "lat": 36.1177811, "lon": 74.2433336 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "way",
+  "id": 996363460,
+  "bounds": {
+    "minlat": 36.1488022,
+    "minlon": 74.2018908,
+    "maxlat": 36.1488780,
+    "maxlon": 74.2021148
+  },
+  "nodes": [
+    298752948,
+    9200416859
+  ],
+  "geometry": [
+    { "lat": 36.1488780, "lon": 74.2021148 },
+    { "lat": 36.1488022, "lon": 74.2018908 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "source": "mapbox",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 996363462,
+  "bounds": {
+    "minlat": 36.1548772,
+    "minlon": 74.1998430,
+    "maxlat": 36.1550147,
+    "maxlon": 74.1999570
+  },
+  "nodes": [
+    9200416876,
+    9200416875
+  ],
+  "geometry": [
+    { "lat": 36.1550147, "lon": 74.1999570 },
+    { "lat": 36.1548772, "lon": 74.1998430 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "way",
+  "id": 996363464,
+  "bounds": {
+    "minlat": 36.1556763,
+    "minlon": 74.1991241,
+    "maxlat": 36.1558236,
+    "maxlon": 74.1993374
+  },
+  "nodes": [
+    9200416911,
+    298753019
+  ],
+  "geometry": [
+    { "lat": 36.1556763, "lon": 74.1991241 },
+    { "lat": 36.1558236, "lon": 74.1993374 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "source": "mapbox",
+    "surface": "unpaved",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 996363468,
+  "bounds": {
+    "minlat": 36.1994797,
+    "minlon": 74.1406345,
+    "maxlat": 36.1996702,
+    "maxlon": 74.1408196
+  },
+  "nodes": [
+    6745616827,
+    6745616828
+  ],
+  "geometry": [
+    { "lat": 36.1994797, "lon": 74.1408196 },
+    { "lat": 36.1996702, "lon": 74.1406345 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "way",
+  "id": 996363470,
+  "bounds": {
+    "minlat": 36.2135431,
+    "minlon": 74.1238600,
+    "maxlat": 36.2137777,
+    "maxlon": 74.1240372
+  },
+  "nodes": [
+    6745616854,
+    835498900
+  ],
+  "geometry": [
+    { "lat": 36.2137777, "lon": 74.1240372 },
+    { "lat": 36.2135431, "lon": 74.1238600 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "track",
+    "layer": "1",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "way",
+  "id": 996363473,
+  "bounds": {
+    "minlat": 36.2367957,
+    "minlon": 74.1068763,
+    "maxlat": 36.2368206,
+    "maxlon": 74.1070224
+  },
+  "nodes": [
+    835499026,
+    835499481
+  ],
+  "geometry": [
+    { "lat": 36.2367957, "lon": 74.1068763 },
+    { "lat": 36.2368206, "lon": 74.1070224 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "way",
+  "id": 997551206,
+  "bounds": {
+    "minlat": 36.8290621,
+    "minlon": 75.2895502,
+    "maxlat": 36.8292238,
+    "maxlon": 75.2897890
+  },
+  "nodes": [
+    9210905383,
+    9210905382
+  ],
+  "geometry": [
+    { "lat": 36.8290621, "lon": 75.2895502 },
+    { "lat": 36.8292238, "lon": 75.2897890 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق سريع قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1051374428,
+  "bounds": {
+    "minlat": 36.3060509,
+    "minlon": 74.7929075,
+    "maxlat": 36.3067736,
+    "maxlon": 74.7931531
+  },
+  "nodes": [
+    9661663836,
+    4029338321
+  ],
+  "geometry": [
+    { "lat": 36.3067736, "lon": 74.7929075 },
+    { "lat": 36.3060509, "lon": 74.7931531 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1085950083,
+  "bounds": {
+    "minlat": 37.1453434,
+    "minlon": 74.5382881,
+    "maxlat": 37.1455786,
+    "maxlon": 74.5383203
+  },
+  "nodes": [
+    9950453772,
+    9950453773
+  ],
+  "geometry": [
+    { "lat": 37.1453434, "lon": 74.5383203 },
+    { "lat": 37.1455786, "lon": 74.5382881 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "motor_vehicle": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1097936864,
+  "bounds": {
+    "minlat": 36.3016920,
+    "minlon": 74.5854615,
+    "maxlat": 36.3018798,
+    "maxlon": 74.5857387
+  },
+  "nodes": [
+    10053311146,
+    10053311147
+  ],
+  "geometry": [
+    { "lat": 36.3016920, "lon": 74.5854615 },
+    { "lat": 36.3018798, "lon": 74.5857387 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "lanes": "1",
+    "layer": "1",
+    "surface": "metal"
+  }
+},
+{
+  "type": "way",
+  "id": 1097956773,
+  "bounds": {
+    "minlat": 36.8338067,
+    "minlon": 75.3758144,
+    "maxlat": 36.8338357,
+    "maxlon": 75.3760047
+  },
+  "nodes": [
+    2663086651,
+    298750452
+  ],
+  "geometry": [
+    { "lat": 36.8338357, "lon": 75.3758144 },
+    { "lat": 36.8338067, "lon": 75.3760047 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق سريع قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1101876390,
+  "bounds": {
+    "minlat": 37.1971659,
+    "minlon": 75.3597712,
+    "maxlat": 37.1972269,
+    "maxlon": 75.3599265
+  },
+  "nodes": [
+    8394617204,
+    10083169673
+  ],
+  "geometry": [
+    { "lat": 37.1972269, "lon": 75.3597712 },
+    { "lat": 37.1971659, "lon": 75.3599265 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1101876399,
+  "bounds": {
+    "minlat": 37.1598206,
+    "minlon": 75.4556854,
+    "maxlat": 37.1603935,
+    "maxlon": 75.4558423
+  },
+  "nodes": [
+    10083190877,
+    10083190876
+  ],
+  "geometry": [
+    { "lat": 37.1603935, "lon": 75.4558423 },
+    { "lat": 37.1598206, "lon": 75.4556854 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "int_ref": "AH4",
+    "layer": "1",
+    "ref": "G314",
+    "source": "Yahoo",
+    "url": "http://www.roadtraffic-technology.com/projects/314nationaltrunk/"
+  }
+},
+{
+  "type": "way",
+  "id": 1151510489,
+  "bounds": {
+    "minlat": 36.4408768,
+    "minlon": 75.3019832,
+    "maxlat": 36.4408851,
+    "maxlon": 75.3021983
+  },
+  "nodes": [
+    10712175013,
+    10712175012
+  ],
+  "geometry": [
+    { "lat": 36.4408768, "lon": 75.3019832 },
+    { "lat": 36.4408851, "lon": 75.3021983 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 1151619412,
+  "bounds": {
+    "minlat": 36.4294257,
+    "minlon": 75.3872610,
+    "maxlat": 36.4295734,
+    "maxlon": 75.3873922
+  },
+  "nodes": [
+    10713040182,
+    10713040181
+  ],
+  "geometry": [
+    { "lat": 36.4295734, "lon": 75.3872610 },
+    { "lat": 36.4294257, "lon": 75.3873922 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1155929582,
+  "bounds": {
+    "minlat": 36.1841112,
+    "minlon": 74.1539685,
+    "maxlat": 36.1841896,
+    "maxlon": 74.1540858
+  },
+  "nodes": [
+    10749728831,
+    10749728830
+  ],
+  "geometry": [
+    { "lat": 36.1841112, "lon": 74.1539685 },
+    { "lat": 36.1841896, "lon": 74.1540858 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1162958921,
+  "bounds": {
+    "minlat": 36.2621661,
+    "minlon": 74.5761738,
+    "maxlat": 36.2625203,
+    "maxlon": 74.5772262
+  },
+  "nodes": [
+    10815680931,
+    10815680861
+  ],
+  "geometry": [
+    { "lat": 36.2621661, "lon": 74.5761738 },
+    { "lat": 36.2625203, "lon": 74.5772262 }
+  ],
+  "tags": {
+    "bridge": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1167212250,
+  "bounds": {
+    "minlat": 36.0745509,
+    "minlon": 74.2920943,
+    "maxlat": 36.0747461,
+    "maxlon": 74.2931444
+  },
+  "nodes": [
+    3171696792,
+    3171696793
+  ],
+  "geometry": [
+    { "lat": 36.0747461, "lon": 74.2920943 },
+    { "lat": 36.0745509, "lon": 74.2931444 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1171726530,
+  "bounds": {
+    "minlat": 36.0898361,
+    "minlon": 74.2886350,
+    "maxlat": 36.0903119,
+    "maxlon": 74.2886886
+  },
+  "nodes": [
+    10887431091,
+    10887431079
+  ],
+  "geometry": [
+    { "lat": 36.0898361, "lon": 74.2886350 },
+    { "lat": 36.0903119, "lon": 74.2886886 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1171726536,
+  "bounds": {
+    "minlat": 36.0462142,
+    "minlon": 74.2978239,
+    "maxlat": 36.0463016,
+    "maxlon": 74.2978332
+  },
+  "nodes": [
+    10887431177,
+    10887431176
+  ],
+  "geometry": [
+    { "lat": 36.0462142, "lon": 74.2978332 },
+    { "lat": 36.0463016, "lon": 74.2978239 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1180261706,
+  "bounds": {
+    "minlat": 36.3296648,
+    "minlon": 74.6717816,
+    "maxlat": 36.3297917,
+    "maxlon": 74.6719186
+  },
+  "nodes": [
+    10961971242,
+    10821651298
+  ],
+  "geometry": [
+    { "lat": 36.3297917, "lon": 74.6717816 },
+    { "lat": 36.3296648, "lon": 74.6719186 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "informal": "yes",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1209327167,
+  "bounds": {
+    "minlat": 36.0018217,
+    "minlon": 74.5325485,
+    "maxlat": 36.0018850,
+    "maxlon": 74.5326774
+  },
+  "nodes": [
+    4010602805,
+    4010602806
+  ],
+  "geometry": [
+    { "lat": 36.0018217, "lon": 74.5325485 },
+    { "lat": 36.0018850, "lon": 74.5326774 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1229690859,
+  "bounds": {
+    "minlat": 37.1473463,
+    "minlon": 75.4668312,
+    "maxlat": 37.1475936,
+    "maxlon": 75.4673023
+  },
+  "nodes": [
+    11403339236,
+    11403339235
+  ],
+  "geometry": [
+    { "lat": 37.1475936, "lon": 75.4668312 },
+    { "lat": 37.1473463, "lon": 75.4673023 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1242104210,
+  "bounds": {
+    "minlat": 36.8340786,
+    "minlon": 75.2449469,
+    "maxlat": 36.8341537,
+    "maxlon": 75.2450663
+  },
+  "nodes": [
+    298750011,
+    298750012
+  ],
+  "geometry": [
+    { "lat": 36.8340786, "lon": 75.2449469 },
+    { "lat": 36.8341537, "lon": 75.2450663 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق سريع قراقرم",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1270955989,
+  "bounds": {
+    "minlat": 36.3083612,
+    "minlon": 74.6609061,
+    "maxlat": 36.3084110,
+    "maxlon": 74.6611515
+  },
+  "nodes": [
+    6111667646,
+    6111667647
+  ],
+  "geometry": [
+    { "lat": 36.3083612, "lon": 74.6611515 },
+    { "lat": 36.3084110, "lon": 74.6609061 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1270955992,
+  "bounds": {
+    "minlat": 36.3072675,
+    "minlon": 74.6653524,
+    "maxlat": 36.3075073,
+    "maxlon": 74.6657556
+  },
+  "nodes": [
+    11802633171,
+    10796702454
+  ],
+  "geometry": [
+    { "lat": 36.3072675, "lon": 74.6653524 },
+    { "lat": 36.3075073, "lon": 74.6657556 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1271248616,
+  "bounds": {
+    "minlat": 36.2420656,
+    "minlon": 74.8016529,
+    "maxlat": 36.2422257,
+    "maxlon": 74.8017400
+  },
+  "nodes": [
+    11805514559,
+    11805514558
+  ],
+  "geometry": [
+    { "lat": 36.2420656, "lon": 74.8016529 },
+    { "lat": 36.2422257, "lon": 74.8017400 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1271248619,
+  "bounds": {
+    "minlat": 36.2274557,
+    "minlon": 74.7556771,
+    "maxlat": 36.2276590,
+    "maxlon": 74.7559923
+  },
+  "nodes": [
+    11805520131,
+    11805520129
+  ],
+  "geometry": [
+    { "lat": 36.2276590, "lon": 74.7556771 },
+    { "lat": 36.2274557, "lon": 74.7559923 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1271248626,
+  "bounds": {
+    "minlat": 36.2825602,
+    "minlon": 74.7087197,
+    "maxlat": 36.2833624,
+    "maxlon": 74.7088350
+  },
+  "nodes": [
+    11805516956,
+    11805516955,
+    11805516954,
+    11805516953,
+    11805516952,
+    11805516951,
+    11805516950,
+    11805516949
+  ],
+  "geometry": [
+    { "lat": 36.2833624, "lon": 74.7087559 },
+    { "lat": 36.2833083, "lon": 74.7087894 },
+    { "lat": 36.2830770, "lon": 74.7088350 },
+    { "lat": 36.2829818, "lon": 74.7088350 },
+    { "lat": 36.2828953, "lon": 74.7088324 },
+    { "lat": 36.2827591, "lon": 74.7087988 },
+    { "lat": 36.2826035, "lon": 74.7087237 },
+    { "lat": 36.2825602, "lon": 74.7087197 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1272033629,
+  "bounds": {
+    "minlat": 36.2572395,
+    "minlon": 74.7516820,
+    "maxlat": 36.2572649,
+    "maxlon": 74.7519810
+  },
+  "nodes": [
+    11812122044,
+    11812122043,
+    11812122042
+  ],
+  "geometry": [
+    { "lat": 36.2572395, "lon": 74.7516820 },
+    { "lat": 36.2572525, "lon": 74.7518724 },
+    { "lat": 36.2572649, "lon": 74.7519810 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1272033631,
+  "bounds": {
+    "minlat": 36.2570838,
+    "minlon": 74.7517839,
+    "maxlat": 36.2570967,
+    "maxlon": 74.7519717
+  },
+  "nodes": [
+    11812121993,
+    11812121992
+  ],
+  "geometry": [
+    { "lat": 36.2570838, "lon": 74.7517839 },
+    { "lat": 36.2570967, "lon": 74.7519717 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1272033643,
+  "bounds": {
+    "minlat": 36.2614029,
+    "minlon": 74.7587644,
+    "maxlat": 36.2617684,
+    "maxlon": 74.7592337
+  },
+  "nodes": [
+    11812122960,
+    11812122961,
+    11812122962,
+    11812122964,
+    11812122963
+  ],
+  "geometry": [
+    { "lat": 36.2614029, "lon": 74.7587644 },
+    { "lat": 36.2614418, "lon": 74.7588502 },
+    { "lat": 36.2614840, "lon": 74.7589481 },
+    { "lat": 36.2615748, "lon": 74.7590661 },
+    { "lat": 36.2617684, "lon": 74.7592337 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "track",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1272033648,
+  "bounds": {
+    "minlat": 36.2557968,
+    "minlon": 74.7647269,
+    "maxlat": 36.2561635,
+    "maxlon": 74.7649334
+  },
+  "nodes": [
+    11812118365,
+    11812118364,
+    11812118362
+  ],
+  "geometry": [
+    { "lat": 36.2561635, "lon": 74.7647269 },
+    { "lat": 36.2559190, "lon": 74.7648852 },
+    { "lat": 36.2557968, "lon": 74.7649334 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "track",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1278975118,
+  "bounds": {
+    "minlat": 36.6637664,
+    "minlon": 74.8419579,
+    "maxlat": 36.6639135,
+    "maxlon": 74.8420602
+  },
+  "nodes": [
+    11873301154,
+    11873301150
+  ],
+  "geometry": [
+    { "lat": 36.6637664, "lon": 74.8419579 },
+    { "lat": 36.6639135, "lon": 74.8420602 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "track",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1278975629,
+  "bounds": {
+    "minlat": 36.6644068,
+    "minlon": 74.8378002,
+    "maxlat": 36.6644872,
+    "maxlon": 74.8378141
+  },
+  "nodes": [
+    11873229832,
+    11873229831
+  ],
+  "geometry": [
+    { "lat": 36.6644068, "lon": 74.8378002 },
+    { "lat": 36.6644872, "lon": 74.8378141 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شاہراہ قراقرم",
+    "name:ar": "طريق قراقرم السريع",
+    "name:en": "Karakoram Highway",
+    "name:fa": "شاهراه قره‌قروم",
+    "name:gan": "喀喇昆仑公路",
+    "name:pa": "ਸ਼ਾਹਰਾਹ ਕਰਾਕੁਰਮ",
+    "name:pnb": "شاہراہ ریشم",
+    "name:sd": "شاھراھ قراقرم",
+    "name:ug": "قاراماي يۇقىر سۇرئەتلىك يولى",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1286462476,
+  "bounds": {
+    "minlat": 36.0867381,
+    "minlon": 74.0021927,
+    "maxlat": 36.0869514,
+    "maxlon": 74.0024486
+  },
+  "nodes": [
+    11932111224,
+    299054924
+  ],
+  "geometry": [
+    { "lat": 36.0869514, "lon": 74.0021927 },
+    { "lat": 36.0867381, "lon": 74.0024486 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شندور - گلگت سڑک",
+    "name:en": "Shandur - Gilgit Road",
+    "name:es": "Carretera Shandur - Gilgit",
+    "name:ur": "شندور - گلگت سڑک",
+    "ref": "N-140",
+    "ref:ur": "این-140"
+  }
+},
+{
+  "type": "way",
+  "id": 1286462480,
+  "bounds": {
+    "minlat": 36.0566128,
+    "minlon": 74.0913817,
+    "maxlat": 36.0567898,
+    "maxlon": 74.0915582
+  },
+  "nodes": [
+    299055238,
+    11932111374
+  ],
+  "geometry": [
+    { "lat": 36.0567898, "lon": 74.0913817 },
+    { "lat": 36.0566128, "lon": 74.0915582 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "شندور - گلگت سڑک",
+    "name:en": "Shandur - Gilgit Road",
+    "name:es": "Carretera Shandur - Gilgit",
+    "name:ur": "شندور - گلگت سڑک",
+    "ref": "N-140",
+    "ref:ur": "این-140"
+  }
+},
+{
+  "type": "way",
+  "id": 1299600306,
+  "bounds": {
+    "minlat": 36.8327594,
+    "minlon": 74.2818984,
+    "maxlat": 36.8327647,
+    "maxlon": 74.2820004
+  },
+  "nodes": [
+    12038386918,
+    12038386917
+  ],
+  "geometry": [
+    { "lat": 36.8327594, "lon": 74.2818984 },
+    { "lat": 36.8327647, "lon": 74.2820004 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1299608843,
+  "bounds": {
+    "minlat": 36.8162749,
+    "minlon": 74.5821986,
+    "maxlat": 36.8169567,
+    "maxlon": 74.5823407
+  },
+  "nodes": [
+    12038454084,
+    12038454083
+  ],
+  "geometry": [
+    { "lat": 36.8169567, "lon": 74.5821986 },
+    { "lat": 36.8162749, "lon": 74.5823407 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1299608844,
+  "bounds": {
+    "minlat": 36.8157188,
+    "minlon": 74.6101257,
+    "maxlat": 36.8160409,
+    "maxlon": 74.6102612
+  },
+  "nodes": [
+    12038454086,
+    12038454085
+  ],
+  "geometry": [
+    { "lat": 36.8160409, "lon": 74.6101257 },
+    { "lat": 36.8157188, "lon": 74.6102612 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1299608846,
+  "bounds": {
+    "minlat": 36.8139532,
+    "minlon": 74.6410596,
+    "maxlat": 36.8141282,
+    "maxlon": 74.6413976
+  },
+  "nodes": [
+    12038454103,
+    12038454102
+  ],
+  "geometry": [
+    { "lat": 36.8141282, "lon": 74.6413976 },
+    { "lat": 36.8139532, "lon": 74.6410596 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1302812867,
+  "bounds": {
+    "minlat": 36.3235264,
+    "minlon": 74.6510100,
+    "maxlat": 36.3235419,
+    "maxlon": 74.6511085
+  },
+  "nodes": [
+    12065873901,
+    12065873900
+  ],
+  "geometry": [
+    { "lat": 36.3235264, "lon": 74.6510100 },
+    { "lat": 36.3235419, "lon": 74.6511085 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "lanes:backward": "1",
+    "lanes:forward": "1",
+    "layer": "1",
+    "name": "Karimabad Road",
+    "smoothness": "bad"
+  }
+},
+{
+  "type": "way",
+  "id": 1305526071,
+  "bounds": {
+    "minlat": 36.2511727,
+    "minlon": 74.3648073,
+    "maxlat": 36.2519754,
+    "maxlon": 74.3675057
+  },
+  "nodes": [
+    12091620648,
+    13878966771,
+    12091620647,
+    12091620646
+  ],
+  "geometry": [
+    { "lat": 36.2519754, "lon": 74.3648073 },
+    { "lat": 36.2517653, "lon": 74.3655829 },
+    { "lat": 36.2513699, "lon": 74.3668931 },
+    { "lat": 36.2511727, "lon": 74.3675057 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1314048381,
+  "bounds": {
+    "minlat": 36.1874340,
+    "minlon": 74.9674162,
+    "maxlat": 36.1879428,
+    "maxlon": 74.9675771
+  },
+  "nodes": [
+    4032298929,
+    4032298926
+  ],
+  "geometry": [
+    { "lat": 36.1879428, "lon": 74.9675771 },
+    { "lat": 36.1874340, "lon": 74.9674162 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1314694544,
+  "bounds": {
+    "minlat": 36.3713827,
+    "minlon": 74.8566395,
+    "maxlat": 36.3715694,
+    "maxlon": 74.8569680
+  },
+  "nodes": [
+    12168607413,
+    4032374979,
+    298748241
+  ],
+  "geometry": [
+    { "lat": 36.3713827, "lon": 74.8566395 },
+    { "lat": 36.3714280, "lon": 74.8567146 },
+    { "lat": 36.3715694, "lon": 74.8569680 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "track",
+    "layer": "1",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1317316054,
+  "bounds": {
+    "minlat": 36.8602104,
+    "minlon": 75.0457291,
+    "maxlat": 36.8602229,
+    "maxlon": 75.0459424
+  },
+  "nodes": [
+    298749611,
+    12192089383
+  ],
+  "geometry": [
+    { "lat": 36.8602104, "lon": 75.0457291 },
+    { "lat": 36.8602229, "lon": 75.0459424 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "layer": "1",
+    "name": "喀喇昆仑公路",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1355154421,
+  "bounds": {
+    "minlat": 36.0493446,
+    "minlon": 74.1269551,
+    "maxlat": 36.0503898,
+    "maxlon": 74.1274895
+  },
+  "nodes": [
+    12541594537,
+    12541594538
+  ],
+  "geometry": [
+    { "lat": 36.0493446, "lon": 74.1269551 },
+    { "lat": 36.0503898, "lon": 74.1274895 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1355154427,
+  "bounds": {
+    "minlat": 36.0484276,
+    "minlon": 74.1521436,
+    "maxlat": 36.0492647,
+    "maxlon": 74.1523367
+  },
+  "nodes": [
+    12541628082,
+    12541628083,
+    12541628084
+  ],
+  "geometry": [
+    { "lat": 36.0492647, "lon": 74.1523367 },
+    { "lat": 36.0487928, "lon": 74.1522337 },
+    { "lat": 36.0484276, "lon": 74.1521436 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1356879741,
+  "bounds": {
+    "minlat": 36.0437929,
+    "minlon": 74.1605100,
+    "maxlat": 36.0440703,
+    "maxlon": 74.1614288
+  },
+  "nodes": [
+    12558575619,
+    12558575620,
+    12558575621,
+    12558575622,
+    12558575623
+  ],
+  "geometry": [
+    { "lat": 36.0437929, "lon": 74.1605100 },
+    { "lat": 36.0438837, "lon": 74.1608502 },
+    { "lat": 36.0439402, "lon": 74.1610401 },
+    { "lat": 36.0439901, "lon": 74.1612011 },
+    { "lat": 36.0440703, "lon": 74.1614288 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1356879743,
+  "bounds": {
+    "minlat": 36.0537722,
+    "minlon": 74.1609100,
+    "maxlat": 36.0537762,
+    "maxlon": 74.1609702
+  },
+  "nodes": [
+    12558577746,
+    12558577747
+  ],
+  "geometry": [
+    { "lat": 36.0537762, "lon": 74.1609702 },
+    { "lat": 36.0537722, "lon": 74.1609100 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1364725570,
+  "bounds": {
+    "minlat": 36.2502223,
+    "minlon": 74.3899811,
+    "maxlat": 36.2502331,
+    "maxlon": 74.3900839
+  },
+  "nodes": [
+    12638376272,
+    4023297523
+  ],
+  "geometry": [
+    { "lat": 36.2502331, "lon": 74.3899811 },
+    { "lat": 36.2502223, "lon": 74.3900839 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "residential",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1382416571,
+  "bounds": {
+    "minlat": 36.8260566,
+    "minlon": 74.3127519,
+    "maxlat": 36.8260954,
+    "maxlon": 74.3132400
+  },
+  "nodes": [
+    4922704525,
+    4922704512,
+    4922704528
+  ],
+  "geometry": [
+    { "lat": 36.8260954, "lon": 74.3127519 },
+    { "lat": 36.8260566, "lon": 74.3128431 },
+    { "lat": 36.8260825, "lon": 74.3132400 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1391846223,
+  "bounds": {
+    "minlat": 36.6991699,
+    "minlon": 74.0110699,
+    "maxlat": 36.6993163,
+    "maxlon": 74.0113997
+  },
+  "nodes": [
+    12883688925,
+    12883688926
+  ],
+  "geometry": [
+    { "lat": 36.6991699, "lon": 74.0110699 },
+    { "lat": 36.6993163, "lon": 74.0113997 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1413595125,
+  "bounds": {
+    "minlat": 36.8306410,
+    "minlon": 74.4306899,
+    "maxlat": 36.8306992,
+    "maxlon": 74.4307603
+  },
+  "nodes": [
+    12990647544,
+    12990647543
+  ],
+  "geometry": [
+    { "lat": 36.8306992, "lon": 74.4307603 },
+    { "lat": 36.8306410, "lon": 74.4306899 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1418621927,
+  "bounds": {
+    "minlat": 36.2484335,
+    "minlon": 74.4442935,
+    "maxlat": 36.2484864,
+    "maxlon": 74.4443105
+  },
+  "nodes": [
+    13037009856,
+    13037009855
+  ],
+  "geometry": [
+    { "lat": 36.2484335, "lon": 74.4443105 },
+    { "lat": 36.2484864, "lon": 74.4442935 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1444616424,
+  "bounds": {
+    "minlat": 36.3206342,
+    "minlon": 74.6514010,
+    "maxlat": 36.3206635,
+    "maxlon": 74.6514862
+  },
+  "nodes": [
+    13255146864,
+    4027648946
+  ],
+  "geometry": [
+    { "lat": 36.3206342, "lon": 74.6514010 },
+    { "lat": 36.3206635, "lon": 74.6514862 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1450153222,
+  "bounds": {
+    "minlat": 36.2587437,
+    "minlon": 74.4274932,
+    "maxlat": 36.2587967,
+    "maxlon": 74.4275797
+  },
+  "nodes": [
+    13300742045,
+    13300742044
+  ],
+  "geometry": [
+    { "lat": 36.2587437, "lon": 74.4275797 },
+    { "lat": 36.2587967, "lon": 74.4274932 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1450153224,
+  "bounds": {
+    "minlat": 36.2532358,
+    "minlon": 74.4294975,
+    "maxlat": 36.2533180,
+    "maxlon": 74.4295571
+  },
+  "nodes": [
+    13300742047,
+    13300742046
+  ],
+  "geometry": [
+    { "lat": 36.2532358, "lon": 74.4295571 },
+    { "lat": 36.2533180, "lon": 74.4294975 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1481147271,
+  "bounds": {
+    "minlat": 37.1448242,
+    "minlon": 75.1616459,
+    "maxlat": 37.1449203,
+    "maxlon": 75.1619215
+  },
+  "nodes": [
+    13584906492,
+    2245567127
+  ],
+  "geometry": [
+    { "lat": 37.1449203, "lon": 75.1619215 },
+    { "lat": 37.1448242, "lon": 75.1616459 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "tertiary",
+    "layer": "1",
+    "name": "卡克一桥",
+    "name:zh-Latn-pinyin": "Kē kè tǔ lǔ kè gōnglù"
+  }
+},
+{
+  "type": "way",
+  "id": 1487720693,
+  "bounds": {
+    "minlat": 36.0010413,
+    "minlon": 74.5397154,
+    "maxlat": 36.0011572,
+    "maxlon": 74.5402358
+  },
+  "nodes": [
+    13638922253,
+    13651445387,
+    13651445386,
+    13638922254
+  ],
+  "geometry": [
+    { "lat": 36.0011469, "lon": 74.5397154 },
+    { "lat": 36.0011572, "lon": 74.5398103 },
+    { "lat": 36.0011442, "lon": 74.5399216 },
+    { "lat": 36.0010413, "lon": 74.5402358 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1",
+    "name": "farfooh bridge"
+  }
+},
+{
+  "type": "way",
+  "id": 1493403865,
+  "bounds": {
+    "minlat": 36.7225987,
+    "minlon": 74.7228416,
+    "maxlat": 36.7227453,
+    "maxlon": 74.7230280
+  },
+  "nodes": [
+    13684582346,
+    13684582345
+  ],
+  "geometry": [
+    { "lat": 36.7225987, "lon": 74.7230280 },
+    { "lat": 36.7227453, "lon": 74.7228416 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "secondary",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1521925430,
+  "bounds": {
+    "minlat": 36.1769759,
+    "minlon": 74.3180275,
+    "maxlat": 36.1770577,
+    "maxlon": 74.3180377
+  },
+  "nodes": [
+    13878945700,
+    13878945699
+  ],
+  "geometry": [
+    { "lat": 36.1769759, "lon": 74.3180275 },
+    { "lat": 36.1770577, "lon": 74.3180377 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "unclassified",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1560760688,
+  "bounds": {
+    "minlat": 36.1082730,
+    "minlon": 74.3005317,
+    "maxlat": 36.1082795,
+    "maxlon": 74.3008374
+  },
+  "nodes": [
+    12806477903,
+    12806477902
+  ],
+  "geometry": [
+    { "lat": 36.1082795, "lon": 74.3008374 },
+    { "lat": 36.1082730, "lon": 74.3005317 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "intermittent": "yes",
+    "waterway": "river"
+  }
+},
+{
+  "type": "way",
+  "id": 1560760690,
+  "bounds": {
+    "minlat": 36.1079051,
+    "minlon": 74.3006900,
+    "maxlat": 36.1086192,
+    "maxlon": 74.3007265
+  },
+  "nodes": [
+    4015648249,
+    298758262
+  ],
+  "geometry": [
+    { "lat": 36.1079051, "lon": 74.3006900 },
+    { "lat": 36.1086192, "lon": 74.3007265 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "trunk",
+    "name:en": "Karakoram Highway",
+    "name:ur": "شاہراہ قراقرم",
+    "name:zh": "喀喇昆仑公路",
+    "ref": "N-35",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1566926565,
+  "bounds": {
+    "minlat": 36.0055252,
+    "minlon": 74.5391845,
+    "maxlat": 36.0055671,
+    "maxlon": 74.5395941
+  },
+  "nodes": [
+    4010595635,
+    4010595631
+  ],
+  "geometry": [
+    { "lat": 36.0055671, "lon": 74.5391845 },
+    { "lat": 36.0055252, "lon": 74.5395941 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "bridge:structure": "yes",
+    "highway": "unclassified"
+  }
+}
+
+  ]
+}

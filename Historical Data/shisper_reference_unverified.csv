@@ -1,0 +1,8 @@
+date,lake_area_km2,event,status
+2018-11-15,0.08,Surge blocked Hunza River tributary,Forming
+2019-06-22,0.34,"2019 GLOF Outburst (Peak ~5,000 cusecs)",GLOF Burst
+2020-05-29,0.29,2020 GLOF Outburst (Minor KKH erosion),GLOF Burst
+2021-05-16,0.31,2021 GLOF Outburst (Controlled drainage),GLOF Burst
+2022-04-17,0.26,Pre-monsoon rapid snowmelt start,Monitoring
+2022-05-03,0.38,Heatwave + rain peak expansion (48h warning),Critical
+2022-05-07,0.04,Major GLOF collapsed Hassanabad KKH Bridge,GLOF Burst

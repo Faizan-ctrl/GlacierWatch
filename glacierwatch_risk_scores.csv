@@ -1,0 +1,11 @@
+Date,Area_km2,Lake_Pts,Temp_Pts,Rain_Pts,Total_Score,Alert_Level,Seismic_Watch,Reason
+2022-04-05,0.245,12.5,4.8,2.0,19.3,LOW / NORMAL,No Recent Seismic Triggers,"Moderate lake growth (0.245 km², +12.5/50 pts)"
+2022-04-10,0.252,14.4,6.6,3.0,24.0,LOW / NORMAL,No Recent Seismic Triggers,"Moderate lake growth (0.252 km², +14.4/50 pts)"
+2022-04-15,0.26,16.7,9.0,4.0,29.7,LOW / NORMAL,No Recent Seismic Triggers,"Moderate lake growth (0.26 km², +16.7/50 pts)"
+2022-05-10,0.32,33.3,19.2,9.0,61.5,MODERATE WATCH,ACTIVE SEISMIC WATCH (M >= 3.5 detected),"Moderate lake growth (0.32 km², +33.3/50 pts) | Sustained heatwave anomaly (+3.2°C, +19.2/30 pts)"
+2022-05-25,0.38,50.0,27.0,14.0,91.0,HIGH ALERT,ACTIVE SEISMIC WATCH (M >= 3.5 detected),"Rapid lake expansion (0.38 km², +50.0/50 pts) | Sustained heatwave anomaly (+4.5°C, +27.0/30 pts) | Heavy 72h rainfall (28.0 mm, +14.0/20 pts)"
+2022-06-14,0.05,0.0,12.6,5.0,17.6,LOW / NORMAL,No Recent Seismic Triggers,"Lake extent stable/drained (0.05 km², 0/50 pts)"
+2022-06-24,0.08,0.0,10.8,2.5,13.3,LOW / NORMAL,No Recent Seismic Triggers,"Lake extent stable/drained (0.08 km², 0/50 pts)"
+2022-06-29,0.12,0.0,12.0,6.0,18.0,LOW / NORMAL,No Recent Seismic Triggers,"Lake extent stable/drained (0.12 km², 0/50 pts)"
+2022-07-04,0.15,0.0,13.2,7.5,20.7,LOW / NORMAL,No Recent Seismic Triggers,"Lake extent stable/drained (0.15 km², 0/50 pts)"
+2022-07-19,0.18,0.0,15.0,7.0,22.0,LOW / NORMAL,No Recent Seismic Triggers,"Lake extent stable/drained (0.18 km², 0/50 pts)"
