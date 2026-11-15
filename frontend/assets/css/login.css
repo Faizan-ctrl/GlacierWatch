@@ -1,0 +1,308 @@
+/* ==========================================================================
+   GlacierWatch Login Screen Styles
+   Matches Karakoram Telemetry design system tokens & frosted glass standards.
+   ========================================================================== */
+
+.login-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:
+    radial-gradient(1200px 700px at 90% -10%, rgba(15, 143, 138, .14), transparent 60%),
+    radial-gradient(900px 600px at 0% 100%, rgba(11, 110, 130, .1), transparent 55%),
+    linear-gradient(180deg, #f2f6fa 0%, #eaf1f6 50%, #dfe9f0 100%);
+}
+
+.login-main {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px 20px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-6);
+}
+
+.login-brand-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.login-brand-header .brand {
+  margin: 0 auto;
+}
+
+.login-card {
+  padding: 36px 32px 32px;
+  border-radius: var(--r-2xl);
+  background: var(--glass);
+  border: var(--glass-edge);
+  box-shadow: var(--shadow-lg), var(--inset-hi);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+}
+
+.login-card-head {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s-4);
+  margin-bottom: var(--s-6);
+}
+
+.login-icon-badge {
+  width: 44px;
+  height: 44px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: var(--brand-soft);
+  color: var(--brand);
+  box-shadow: inset 0 0 0 .5px var(--brand-line);
+}
+.login-icon-badge .icon { width: 20px; height: 20px; }
+
+.login-card-head h1 {
+  font-size: 22px;
+  font-weight: 750;
+  letter-spacing: -.028em;
+  line-height: 1.2;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+
+.login-card-head p {
+  font-size: var(--fs-xs);
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.login-form {
+  display: grid;
+  gap: var(--s-5);
+}
+
+.login-form[hidden] {
+  display: none;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: var(--fs-xs);
+  font-weight: 650;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forgot-link {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--brand-ink);
+  text-decoration: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+.forgot-link:hover { color: var(--brand); text-decoration: underline; }
+
+.phone-input-wrap {
+  display: flex;
+  gap: 8px;
+  align-items: stretch;
+}
+
+.phone-prefix {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 14px;
+  border-radius: var(--r-md);
+  background: var(--fill-2);
+  box-shadow: inset 0 0 0 .5px var(--hair-2);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--ink);
+  user-select: none;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="tel"],
+.form-group input[type="text"] {
+  width: 100%;
+  height: 46px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: var(--r-md);
+  background: var(--fill-2);
+  box-shadow: inset 0 0 0 .5px var(--hair-2);
+  font-size: var(--fs-sm);
+  color: var(--ink);
+  outline: none;
+  transition: background var(--t-fast) var(--ease), box-shadow var(--t-fast) var(--ease);
+}
+
+.form-group input.otp-input {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: .38em;
+  text-align: center;
+  padding-left: calc(16px + .38em);
+}
+
+.form-group input::placeholder { color: var(--placeholder); }
+.form-group input:hover { background: var(--fill-3); }
+.form-group input:focus {
+  background: #fff;
+  box-shadow: 0 0 0 3px var(--brand-soft-2), inset 0 0 0 1px var(--brand);
+}
+
+.otp-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--fs-xs);
+  color: var(--muted);
+}
+
+.resend-btn {
+  background: none;
+  border: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: var(--fs-xs);
+  font-weight: 650;
+  color: var(--brand-ink);
+  cursor: pointer;
+}
+.resend-btn:hover:not(:disabled) {
+  color: var(--brand);
+  text-decoration: underline;
+}
+.resend-btn:disabled {
+  color: var(--muted-2);
+  cursor: not-allowed;
+}
+
+.form-row-check {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-custom {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  background: var(--fill-2);
+  box-shadow: inset 0 0 0 .5px var(--hair-3);
+  transition: background var(--t-fast) var(--ease), box-shadow var(--t-fast) var(--ease);
+}
+
+.checkbox-label input:checked ~ .checkbox-custom {
+  background: var(--brand);
+  box-shadow: inset 0 0 0 .5px var(--brand-line);
+}
+
+.checkbox-label input:checked ~ .checkbox-custom::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.login-form .btn-primary {
+  margin-top: var(--s-2);
+  min-height: 48px;
+  font-size: var(--fs-md);
+}
+
+.login-demo-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s-3);
+  margin-top: var(--s-6);
+  padding: 12px 14px;
+  border-radius: var(--r-md);
+  background: var(--brand-soft);
+  box-shadow: inset 0 0 0 .5px var(--brand-line);
+  color: var(--brand-ink);
+  font-size: var(--fs-xs);
+  line-height: 1.5;
+}
+
+.login-demo-notice .icon {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  margin-top: 1px;
+  color: var(--brand);
+}
+
+.login-footer {
+  text-align: center;
+  font-size: var(--fs-xs);
+  color: var(--muted-2);
+}
+
+.login-footer p { margin-bottom: 6px; }
+
+.login-footer-links {
+  display: flex;
+  justify-content: center;
+  gap: var(--s-2);
+  font-weight: 550;
+}
+
+.login-footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.login-footer-links a:hover { color: var(--brand); text-decoration: underline; }
+
+@media (max-width: 480px) {
+  .login-card { padding: 28px 20px 24px; }
+  .login-main { padding: 16px 12px; }
+}

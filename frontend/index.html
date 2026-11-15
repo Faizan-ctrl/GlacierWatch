@@ -1,0 +1,820 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="metaTitle">GlacierWatch — Glacial lake flood early warning, Northern Pakistan</title>
+  <meta name="description" content="GlacierWatch is a zero-hardware, satellite-based early warning dashboard for glacial lake outburst floods (GLOFs) in Northern Pakistan. See which lakes are changing, replay the 2022 Shisper warning, and send Urdu voice and SMS alerts.">
+  <meta name="theme-color" content="#f2f6fa">
+  <meta property="og:title" content="GlacierWatch — GLOF early warning">
+  <meta property="og:description" content="Satellite-based risk indicators and last-mile Urdu warnings for the Karakoram and Hindu Kush.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&family=Noto+Naskh+Arabic:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
+
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3.5 21 19H3l9-15.5Z"/><path d="M12 9v4.5"/><path d="M12 17h.01"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m14 7 5 5-5 5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.2 4.2L19 6.8"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3.2 2"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 0 0 .4-8A5.5 5.5 0 0 0 6.7 9 4.5 4.5 0 0 0 7 18Z"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="11" height="11" rx="2"/><path d="M15.5 5.5h-9a2 2 0 0 0-2 2v9"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11"/><path d="m7.5 10.5 4.5 4.5 4.5-4.5"/><path d="M5 19.5h14"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5"/><path d="M12 8h.01"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 4 8 4.5-8 4.5-8-4.5L12 4Z"/><path d="m4 12.5 8 4.5 8-4.5"/><path d="m4 16.5 8 4.5 8-4.5"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="10" rx="2.5"/><path d="M8.5 10V8a3.5 3.5 0 0 1 7 0v2"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="m9 5 6 2.5 5-2v13l-5 2-6-2.5-5 2v-13l5-2Z"/><path d="M9 5v13M15 7.5v13"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 7v10M15 7v10"/></symbol>
+    <symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="2.7"/><path d="M4 19c0-3 2.2-5 5-5s5 2 5 5"/><path d="M15.5 6.5a2.5 2.5 0 0 1 0 4.6"/><path d="M17 14.5c2 .6 3.4 2.3 3.4 4.5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10.5c0 5-7 9.5-7 9.5s-7-4.5-7-9.5a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10.3" r="2.4"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M9 6.5 18 12l-9 5.5v-11Z"/></symbol>
+    <symbol id="i-rain" viewBox="0 0 24 24"><path d="M7 15h10a4 4 0 0 0 .4-8A5.5 5.5 0 0 0 6.7 6 4.5 4.5 0 0 0 7 15Z"/><path d="m8.5 18-1 2M12.5 18l-1 2M16.5 18l-1 2"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="18" r="2.4"/><path d="M8.5 6H13a3.5 3.5 0 0 1 0 7h-2a3.5 3.5 0 0 0 0 7h4.5"/></symbol>
+    <symbol id="i-satellite" viewBox="0 0 24 24"><path d="m10 6 8 8-4 4-8-8 4-4Z"/><path d="m4 14 2.5 2.5M14 4l2.5 2.5"/><path d="M15 15.5c2 2 2 4 2 5.5 1.5 0 3.5 0 5.5-2"/><path d="M12 12.5c2 .5 3.5 1.5 4.5 4"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m16 16 4 4"/></symbol>
+    <symbol id="i-signal" viewBox="0 0 24 24"><path d="M5 19v-3M10 19v-6M15 19V9M20 19V5"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3.5 13.8 9l5.7 1.8-5.7 1.9L12 18.5l-1.8-5.8-5.7-1.9L10.2 9 12 3.5Z"/></symbol>
+    <symbol id="i-thermo" viewBox="0 0 24 24"><path d="M9.5 14.2V6.5a2.5 2.5 0 0 1 5 0v7.7a4.5 4.5 0 1 1-5 0Z"/><path d="M12 9v6"/></symbol>
+    <symbol id="i-volume" viewBox="0 0 24 24"><path d="M5 10v4h3l4 3.5v-11L8 10H5Z"/><path d="M15.5 9.5a4 4 0 0 1 0 5"/><path d="M18 7a7.5 7.5 0 0 1 0 10"/></symbol>
+    <symbol id="i-warning" viewBox="0 0 24 24"><path d="M12 4 21 19H3L12 4Z"/><path d="M12 9.5v4"/><path d="M12 17h.01"/></symbol>
+    <symbol id="i-water" viewBox="0 0 24 24"><path d="M12 3.5c3.5 4.4 6 7.4 6 10.5a6 6 0 1 1-12 0c0-3.1 2.5-6.1 6-10.5Z"/><path d="M9 14.5c.4 1.4 1.5 2.2 3 2.2"/></symbol>
+    <symbol id="i-logout" viewBox="0 0 24 24"><path d="M10 22H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h5"/><polyline points="17 16 21 12 17 8"/><line x1="21" y1="12" x2="9" y2="12"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#overview" data-nav="overview" aria-label="GlacierWatch home">
+        <span class="brand-mark" aria-hidden="true" style="background: transparent; box-shadow: none;">
+          <svg viewBox="0 0 44 44" fill="none">
+            <defs>
+              <linearGradient id="gw-calm" x1="4" y1="6" x2="40" y2="38" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#0b6e82"/>
+                <stop offset="55%" stop-color="#19948b"/>
+                <stop offset="100%" stop-color="#5ab8a8"/>
+              </linearGradient>
+              <linearGradient id="gw-surface" x1="0" y1="0" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#e3f3f4"/>
+                <stop offset="100%" stop-color="#eef7f5"/>
+              </linearGradient>
+            </defs>
+            <rect x="2" y="2" width="40" height="40" rx="12" fill="url(#gw-surface)" stroke="#cde4e5" stroke-width="1.2"/>
+            <path d="M8 29.5 14.5 20.5a1.6 1.6 0 0 1 2.6 0l2.4 3.4 4.1-6.2a1.6 1.6 0 0 1 2.7.1l4.7 8.1" stroke="url(#gw-calm)" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M26 12.5a7.5 7.5 0 0 1 7.5 7.5" stroke="#2d9d92" stroke-width="1.8" stroke-linecap="round" opacity="0.65"/>
+            <circle cx="33.5" cy="12.5" r="2" fill="#0b6e82"/>
+            <path d="M10 33.5c4.5-1.6 8.5 1.6 13 0s8.5 1.6 11 0" stroke="#5ab8a8" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>GlacierWatch</strong>
+          <small data-i18n="brandSub">GLOF early warning · Northern Pakistan</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-link is-active" data-view="overview" data-i18n="navOverview" aria-current="page">Overview</button>
+        <button class="nav-link" data-view="timemachine" data-i18n="navTimeMachine">Time Machine</button>
+        <button class="nav-link" data-view="escape" data-i18n="navEscape">Escape Routes</button>
+        <button class="nav-link" data-view="alerts" data-i18n="navAlerts">Alerts</button>
+        <button class="nav-link" data-view="method" data-i18n="navMethod">How it works</button>
+      </nav>
+
+      <div class="header-meta">
+        <span class="demo-pill" title="Connected to GlacierWatch Python Risk Engine" data-i18n="liveEngineText">
+          <span class="demo-dot" style="background: #0f8a5f;"></span> Live Engine · Data thru 14 Nov 2026
+        </span>
+        <button class="btn btn-ghost" id="lang-toggle-btn" aria-label="Switch language to Urdu" style="padding: 6px 12px; font-size: 13px; font-weight: 600;">
+          اردو / EN
+        </button>
+        <button class="logout-btn" id="logout-btn" aria-label="Log out of session">
+          <svg class="icon" aria-hidden="true"><use href="#i-logout"/></svg>
+          <span data-i18n="logOut">Log Out</span>
+        </button>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+      <button class="nav-link is-active" data-view="overview" data-i18n="navOverview">Overview</button>
+      <button class="nav-link" data-view="timemachine" data-i18n="navTimeMachine">Time Machine</button>
+      <button class="nav-link" data-view="escape" data-i18n="navEscape">Escape Routes</button>
+      <button class="nav-link" data-view="alerts" data-i18n="navAlerts">Alerts</button>
+      <button class="nav-link" data-view="method" data-i18n="navMethod">How it works</button>
+      <button class="nav-link" id="lang-toggle-btn-mobile" style="color: #0b6e82; font-weight: 600;">اردو / EN</button>
+      <button class="nav-link logout-nav-link" id="logout-btn-mobile" data-i18n="logOut" style="color: #e5484d; font-weight: 600;">Log Out</button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================== OVERVIEW ============================== -->
+    <section class="view is-active" id="view-overview" data-view-panel="overview">
+      <div class="page">
+        <div class="page-head">
+          <div class="page-head-copy">
+            <p class="eyebrow" data-i18n="heroEyebrow"><span class="live-dot" aria-hidden="true"></span> Northern Pakistan · Karakoram &amp; Hindu Kush</p>
+            <h1><span id="hero-count-word">Two</span> <span data-i18n="heroTitleRest">lakes need a closer look.</span></h1>
+            <p class="lede" data-i18n="heroLede">GlacierWatch watches 36 of the region's most dangerous glacial lakes from space — and tells you, in plain language, which ones are changing fastest.</p>
+          </div>
+          <div class="scan-card">
+            <div class="scan-top">
+              <span class="scan-icon"><svg class="icon"><use href="#i-satellite"/></svg></span>
+              <div>
+                <span class="scan-label" data-i18n="lastScanLabel">Last scan</span>
+                <strong data-i18n="scanSyncText">14 Nov 2026 · Telemetry Sync</strong>
+              </div>
+              <span class="scan-status" data-i18n="completeStatus">Complete</span>
+            </div>
+            <dl class="scan-facts">
+              <div><dt data-i18n="coverageLabel">Coverage</dt><dd data-i18n="coverageVal">36 of 36 lakes</dd></div>
+              <div><dt data-i18n="scanTimeLabel">Scan time</dt><dd data-i18n="scanTimeVal">27 seconds</dd></div>
+              <div><dt data-i18n="newestPassLabel">Newest pass</dt><dd>Landsat-9 · 149035</dd></div>
+            </dl>
+            <p class="scan-note" data-i18n="scanNoteText"><svg class="icon"><use href="#i-info"/></svg> Verified telemetry: Sentinel-1/2, Landsat-9, NASA POWER &amp; USGS feeds.</p>
+          </div>
+        </div>
+
+        <div class="alert-strip" role="status">
+          <span class="alert-strip-icon"><svg class="icon"><use href="#i-warning"/></svg></span>
+          <div class="alert-strip-copy">
+            <strong data-i18n="shisperBannerTitle">High risk at Shisper Lake, Hassanabad.</strong>
+            <span data-i18n="shisperBannerDesc">The lake is 43% larger than it was 15 days ago. A warning was issued on 4 May — three days before the breach.</span>
+          </div>
+          <div class="alert-strip-actions">
+            <button class="btn btn-voice" id="hero-voice">
+              <svg class="icon"><use href="#i-volume"/></svg> <span data-i18n="hearUrduWarning">Hear the Urdu warning</span>
+            </button>
+            <button class="btn btn-quiet" data-jump="timemachine">
+              <span data-i18n="seeHowUnfolded">See how it unfolded</span> <svg class="icon"><use href="#i-arrow"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="kpi-grid">
+          <article class="kpi-card">
+            <span class="kpi-icon kpi-icon-red"><svg class="icon"><use href="#i-warning"/></svg></span>
+            <div class="kpi-body">
+              <span class="kpi-label" data-i18n="kpiHighLabel">High risk</span>
+              <strong class="kpi-value" id="kpi-high">2</strong>
+              <span class="kpi-sub" data-i18n="kpiHighSub">Above the warning line of 75</span>
+            </div>
+          </article>
+          <article class="kpi-card">
+            <span class="kpi-icon kpi-icon-blue"><svg class="icon"><use href="#i-map"/></svg></span>
+            <div class="kpi-body">
+              <span class="kpi-label" data-i18n="kpiTotalLabel">Lakes monitored</span>
+              <strong class="kpi-value" id="kpi-total">36</strong>
+              <span class="kpi-sub" data-i18n="kpiTotalSub">The highest-exposure basins</span>
+            </div>
+          </article>
+          <article class="kpi-card">
+            <span class="kpi-icon kpi-icon-green"><svg class="icon"><use href="#i-clock"/></svg></span>
+            <div class="kpi-body">
+              <span class="kpi-label" data-i18n="kpiLeadLabel">Warning lead time</span>
+              <strong class="kpi-value" id="kpi-lead">3 days</strong>
+              <span class="kpi-sub" data-i18n="kpiLeadSub">Verified in the 2022 Shisper event</span>
+            </div>
+          </article>
+          <article class="kpi-card">
+            <span class="kpi-icon kpi-icon-teal"><svg class="icon"><use href="#i-signal"/></svg></span>
+            <div class="kpi-body">
+              <span class="kpi-label" data-i18n="kpiConfLabel">Data confidence</span>
+              <strong class="kpi-value" id="kpi-confidence">82%</strong>
+              <span class="kpi-sub" data-i18n="kpiConfSub">Clear skies + recent radar</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="overview-grid">
+          <section class="card map-card" aria-labelledby="risk-map-title">
+            <div class="card-head">
+              <div>
+                <h2 id="risk-map-title" data-i18n="riskMapTitle">Where the risk is</h2>
+                <p data-i18n="riskMapSub">Tap a lake to see what the satellite measured.</p>
+              </div>
+              <div class="map-view-toggle">
+                <span data-i18n="terrain3d">3D terrain</span>
+                <button class="ios-switch" id="map-3d-toggle" role="switch" aria-checked="true" aria-label="Toggle 3D terrain"></button>
+              </div>
+            </div>
+            <div class="map-wrap">
+              <div id="overview-map" class="map" aria-label="Map of monitored glacial lakes in Northern Pakistan"></div>
+              <div class="map-legend" aria-label="Risk score legend">
+                <span class="legend-title" data-i18n="legendTitle">Risk score</span>
+                <span data-i18n="legendHigh"><i class="dot dot-high"></i> High · 75–100</span>
+                <span data-i18n="legendWatch"><i class="dot dot-moderate"></i> Watch · 45–74</span>
+                <span data-i18n="legendStable"><i class="dot dot-low"></i> Stable · 0–44</span>
+              </div>
+              <div class="map-loading" id="overview-map-loading"><span class="spinner"></span> <span data-i18n="loadingMap">Loading risk map…</span></div>
+              <div class="map-fallback" id="overview-map-fallback" hidden>
+                <strong data-i18n="mapErrorTitle">Map could not load.</strong>
+                <span data-i18n="mapErrorDesc">Check your connection, then refresh. The lake list still works.</span>
+              </div>
+            </div>
+            <div class="map-caption">
+              <span data-i18n="mapCaptionLeft"><svg class="icon"><use href="#i-satellite"/></svg> Sentinel-1 radar · Sentinel-2 optical · Copernicus 30 m terrain</span>
+              <span data-i18n="mapCaptionRight">36 lakes shown</span>
+            </div>
+          </section>
+
+          <aside class="card lakes-card" aria-labelledby="priority-lakes-title">
+            <div class="card-head">
+              <div>
+                <h2 id="priority-lakes-title" data-i18n="priorityTitle">Priority lakes</h2>
+                <p><span data-i18n="sortedByRisk">Sorted by risk.</span> <span id="lake-count">36</span> <span data-i18n="monitoredCount">monitored.</span></p>
+              </div>
+              <span class="badge-soft" data-i18n="liveDataBadge">Live Data</span>
+            </div>
+            <div class="lake-search">
+              <svg class="icon"><use href="#i-search"/></svg>
+              <input id="lake-search" type="search" placeholder="Search a lake, valley or district" data-i18n-placeholder="searchPlaceholder" aria-label="Search lakes" autocomplete="off">
+            </div>
+            <div class="filter-row" role="group" aria-label="Filter lakes by risk">
+              <button class="chip is-active" data-filter="all"><span data-i18n="filterAll">All</span> <span id="chip-all">36</span></button>
+              <button class="chip" data-filter="high"><span data-i18n="filterHigh">High</span> <span id="chip-high">2</span></button>
+              <button class="chip" data-filter="moderate"><span data-i18n="filterWatch">Watch</span> <span id="chip-moderate">4</span></button>
+              <button class="chip" data-filter="low"><span data-i18n="filterStable">Stable</span> <span id="chip-low">30</span></button>
+            </div>
+            <ul class="lake-list" id="lake-list"></ul>
+            <p class="empty-state" id="lake-empty" data-i18n="lakeEmpty" hidden>No lakes match that search. Try a valley name like “Hunza”.</p>
+            <div class="lakes-foot">
+              <svg class="icon"><use href="#i-people"/></svg>
+              <span><strong data-i18n="popMillion">7.1 million</strong> <span data-i18n="popLiveDownstream">people live downstream of the region's hazardous lakes.</span></span>
+            </div>
+          </aside>
+        </div>
+
+        <section class="context-band">
+          <div class="context-copy">
+            <p class="eyebrow" data-i18n="whyEyebrow">Why these 36?</p>
+            <h2 data-i18n="whyTitle">Thousands of lakes. Only some sit above people.</h2>
+            <p data-i18n="whyDesc">Northern Pakistan has 3,044 mapped glacial lakes. The 36 shown here are the ones with villages, bridges or roads directly in the flood path. Monitoring them all from space takes 27 seconds — no hardware on the mountain.</p>
+            <div class="context-facts">
+              <span><strong data-i18n="factElevation">30 m</strong> <span data-i18n="factElevationSub">elevation detail</span></span>
+              <span><strong data-i18n="factAudio">&lt; 45 KB</strong> <span data-i18n="factAudioSub">Urdu voice warning</span></span>
+              <span><strong data-i18n="factWindow">48 h+</strong> <span data-i18n="factWindowSub">target warning window</span></span>
+            </div>
+          </div>
+          <div class="context-visual" aria-hidden="true">
+            <div class="terrain-art">
+              <span class="art-sun"></span>
+              <span class="art-peak peak-back"></span>
+              <span class="art-peak peak-mid"></span>
+              <span class="art-peak peak-front"></span>
+              <span class="art-snow"></span>
+              <span class="art-lake"></span>
+              <span class="art-village"></span>
+              <span class="art-ping ping-1"></span>
+              <span class="art-ping ping-2"></span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- ============================== TIME MACHINE ============================== -->
+    <section class="view" id="view-timemachine" data-view-panel="timemachine" hidden>
+      <div class="page">
+        <div class="page-head">
+          <div class="page-head-copy">
+            <p class="eyebrow" data-i18n="tmEyebrow">Historical replay · Shisper GEE &amp; NASA POWER timeline</p>
+            <h1 data-i18n="tmHeading">The warning came three days early.</h1>
+            <p class="lede" data-i18n="tmLede">In May 2022, Shisper Lake burst and destroyed the Hassanabad Bridge. Replay the season with the same rules used today, and watch the score cross the danger line before the flood.</p>
+          </div>
+          <div class="proof-card">
+            <span class="proof-label" data-i18n="proofLabel">Verified outcome</span>
+            <div class="proof-main"><strong id="proof-lead" data-i18n="proofDays">3 days</strong><span data-i18n="proofBetween">between the first HIGH alert and the breach</span></div>
+            <div class="proof-grid">
+              <span><em data-i18n="proofCrossed">Shisper crossed 75</em><strong id="proof-alert-date" data-i18n="proofDateMay4">4 May</strong></span>
+              <span><em data-i18n="proofWashed">Bridge washed away</em><strong data-i18n="proofDateMay7">7 May</strong></span>
+            </div>
+            <p class="proof-foot" data-i18n="proofFoot"><svg class="icon"><use href="#i-check"/></svg> Control lakes stayed below 45 — zero false alarms.</p>
+          </div>
+        </div>
+
+        <section class="card tm-console" aria-label="Time machine playback controls">
+          <div class="tm-top">
+            <button class="play-btn" id="tm-play" aria-label="Play the timeline">
+              <svg class="icon play-icon"><use href="#i-play"/></svg>
+              <svg class="icon pause-icon"><use href="#i-pause"/></svg>
+            </button>
+            <div class="tm-date-wrap">
+              <span class="tm-day" id="tm-day-label">Day 21 of 26</span>
+              <strong class="tm-date" id="tm-date-label">5 May 2022</strong>
+              <p class="tm-note" id="tm-note">The heat spike pushed Shisper above the danger line — two days before the breach.</p>
+            </div>
+            <label class="tm-speed" for="tm-speed"><span data-i18n="tmSpeedLabel">Speed</span>
+              <select id="tm-speed">
+                <option value="1">1×</option>
+                <option value="2">2×</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-events" aria-hidden="true">
+              <span class="timeline-event event-heat" style="--at: 76%"><i></i><b data-i18n="tmevent1Date">4 May</b> <span data-i18n="tmevent1Text">Heat spike · 17.5°C</span></span>
+              <span class="timeline-event event-breach" style="--at: 88%"><i></i><b data-i18n="tmevent2Date">7 May</b> <span data-i18n="tmevent2Text">Breach</span></span>
+            </div>
+            <input type="range" id="tm-slider" min="0" max="25" step="1" value="20" aria-label="Select a date in the replay">
+            <div class="timeline-labels" aria-hidden="true">
+              <span>15 Apr</span><span>22 Apr</span><span>29 Apr</span><span>6 May</span><span>10 May</span>
+            </div>
+          </div>
+        </section>
+
+        <div class="tm-snapshots" id="tm-snapshots" aria-live="polite"></div>
+
+        <div class="tm-grid">
+          <section class="card chart-card">
+            <div class="card-head">
+              <div>
+                <h2 data-i18n="chartAreaTitle">How fast the lake grew</h2>
+                <p data-i18n="chartAreaSub">Measured surface area in km². Shisper nearly doubled its growth rate in three weeks.</p>
+              </div>
+              <div class="chart-legend" aria-hidden="true">
+                <span><i class="line-swatch swatch-shisper"></i><span data-i18n="legendShisper">Shisper</span></span>
+                <span><i class="line-swatch swatch-passu"></i><span data-i18n="legendPassu">Passu</span></span>
+                <span><i class="line-swatch swatch-chiantar"></i><span data-i18n="legendChiantar">Chiantar</span></span>
+              </div>
+            </div>
+            <div class="chart-wrap"><canvas id="chart-area"></canvas></div>
+          </section>
+
+          <section class="card chart-card">
+            <div class="card-head">
+              <div>
+                <h2 data-i18n="chartRiskTitle">When the warning fired</h2>
+                <p data-i18n="chartRiskSub">Risk score out of 100. The dashed line is the automatic alert threshold.</p>
+              </div>
+              <span class="chart-badge"><span class="dot dot-high"></span> <span data-i18n="alertAt75">Alert at 75</span></span>
+            </div>
+            <div class="chart-wrap"><canvas id="chart-risk"></canvas></div>
+          </section>
+        </div>
+
+        <div class="tm-bottom">
+          <section class="card conditions-card">
+            <div class="card-head">
+              <div>
+                <h2 data-i18n="conditionsTitle">Conditions that day</h2>
+                <p data-i18n="conditionsSub">What the weather and satellites saw on the selected date.</p>
+              </div>
+              <span class="badge-soft" id="tm-sensor-badge">Sentinel-1 radar</span>
+            </div>
+            <div class="conditions-grid" id="tm-conditions"></div>
+          </section>
+          <aside class="card why-card">
+            <span class="why-icon"><svg class="icon"><use href="#i-info"/></svg></span>
+            <p class="eyebrow" data-i18n="whyItMattersEyebrow">Why it matters</p>
+            <h3 data-i18n="whyItMattersTitle">Every point is checkable.</h3>
+            <p data-i18n="whyItMattersDesc">The score uses only three measured signals: how fast the water is rising, how hot it has been, and how much rain fell. No hidden model, no black box.</p>
+            <a href="#method" class="text-link" data-jump="method"><span data-i18n="readMethod">Read the method</span> <svg class="icon"><use href="#i-arrow"/></svg></a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== ESCAPE ROUTES ============================== -->
+    <section class="view" id="view-escape" data-view-panel="escape" hidden>
+      <div class="page">
+        <div class="page-head">
+          <div class="page-head-copy">
+            <p class="eyebrow" data-i18n="escEyebrow">Last-mile safety · Hassanabad, Hunza</p>
+            <h1 data-i18n="escHeading">Know exactly which way is up.</h1>
+            <p class="lede" data-i18n="escLede">A warning only works if people know where to go. These routes lead from valley-floor villages to safe ground 96–132 m above the flood path, drawn from Copernicus 30-metre elevation data.</p>
+          </div>
+          <div class="evac-stats-card">
+            <div><strong>3</strong><span data-i18n="statSafeRoutes">safe routes</span></div>
+            <div><strong>96–132 m</strong><span data-i18n="statHeightGained">height gained</span></div>
+            <div><strong>1.4–2.1 km</strong><span data-i18n="statWalkingDist">walking distance</span></div>
+          </div>
+        </div>
+
+        <div class="evac-grid">
+          <section class="card evac-map-card" aria-labelledby="terrain-map-title">
+            <div class="card-head">
+              <div>
+                <h2 id="terrain-map-title">Hassanabad, Hunza</h2>
+                <p data-i18n="terrain3dSub">3D terrain · tilt and drag to explore.</p>
+              </div>
+              <div class="layer-toggle" role="group" aria-label="Choose satellite layer">
+                <button class="is-active" data-layer="optical" data-i18n="layerOptical">Optical</button>
+                <button data-layer="sar" data-i18n="layerRadar">Radar</button>
+              </div>
+            </div>
+            <div class="map-wrap evac-map-wrap">
+              <div id="terrain-map" class="map" aria-label="3D terrain map with evacuation routes"></div>
+              <div class="map-legend evac-legend" aria-label="Map legend">
+                <span class="legend-title" data-i18n="mapKey">Map key</span>
+                <span data-i18n="keyEvacRoute"><i class="route-swatch"></i> Evacuation route</span>
+                <span data-i18n="keySafeGround"><i class="dot dot-safe"></i> Safe ground</span>
+                <span data-i18n="keyVillageStart"><i class="dot dot-village"></i> Village start</span>
+              </div>
+              <div class="map-loading" id="terrain-map-loading"><span class="spinner"></span> <span data-i18n="loadingTerrain">Loading 3D terrain…</span></div>
+              <div class="map-fallback" id="terrain-map-fallback" hidden>
+                <strong data-i18n="terrainErrorTitle">3D map could not load.</strong>
+                <span data-i18n="terrainErrorDesc">The route list below still shows each village, distance and height gain.</span>
+              </div>
+              <div class="layer-note" id="layer-note" data-i18n="layerNote">Optical satellite basemap · OpenStreetMap Hunza road &amp; village layer</div>
+            </div>
+            <div class="map-caption">
+              <span data-i18n="escCaptionLeft"><svg class="icon"><use href="#i-route"/></svg> Dashed green lines are evacuation routes</span>
+              <span data-i18n="escCaptionRight">Terrain: Copernicus 30 m · Imagery: Esri World Imagery</span>
+            </div>
+          </section>
+
+          <aside class="evac-side">
+            <div class="card evac-summary">
+              <span class="evac-summary-icon"><svg class="icon"><use href="#i-route"/></svg></span>
+              <h2 data-i18n="gainHeightTitle">Gain enough height</h2>
+              <p data-i18n="gainHeightDesc">Move uphill, away from the riverbed. These paths end above the estimated flood path, on open ground where people can wait for rescue.</p>
+              <div class="evac-times">
+                <span><svg class="icon"><use href="#i-clock"/></svg> <span data-i18n="evacTimeFoot">35–50 min on foot</span></span>
+                <span><svg class="icon"><use href="#i-people"/></svg> <span data-i18n="evacFamilies">Suitable for families</span></span>
+              </div>
+            </div>
+
+            <div class="card route-list-card">
+              <div class="card-head">
+                <div><h2 data-i18n="escapeRoutesHeading">Escape routes</h2><p data-i18n="escapeRoutesSub">Choose a route to focus the map.</p></div>
+                <span class="badge-soft">3</span>
+              </div>
+              <ul class="route-list" id="route-list"></ul>
+            </div>
+
+            <div class="safe-note">
+              <svg class="icon"><use href="#i-warning"/></svg>
+              <div>
+                <strong data-i18n="sayItSimply">Say it simply: “Go uphill, not downstream.”</strong>
+                <span data-i18n="followDdma">Follow DDMA instructions. Help elders, children and animals first.</span>
+                <span class="urdu-inline" lang="ur" dir="rtl">اونچی زمین کی طرف جائیں، نیچے کی طرف نہیں۔</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <p class="fine-print" data-i18n="escFinePrint">Routes computed from Copernicus 30 m DEM elevation contours and OpenStreetMap Hunza village/road geometry. Field validation with local DDMA authorities is recommended prior to community drills.</p>
+      </div>
+    </section>
+
+    <!-- ============================== ALERTS ============================== -->
+    <section class="view" id="view-alerts" data-view-panel="alerts" hidden>
+      <div class="page">
+        <div class="page-head">
+          <div class="page-head-copy">
+            <p class="eyebrow" data-i18n="alertsEyebrow">Last-mile dispatch · Urdu voice + SMS</p>
+            <h1 data-i18n="alertsHeading">A warning people can actually understand.</h1>
+            <p class="lede" data-i18n="alertsLede">Text bulletins don't help a farmer on a 2G phone. GlacierWatch turns the score into a short Urdu voice note, a 160-character SMS, and one clear instruction: go uphill.</p>
+          </div>
+          <div class="alert-lake-picker">
+            <label for="alert-lake-select" data-i18n="previewWarningFor">Preview a warning for</label>
+            <select id="alert-lake-select"></select>
+            <span class="picker-hint" id="picker-hint">Warning template · Shisper Lake</span>
+          </div>
+        </div>
+
+        <div class="alert-notice" id="alert-notice" hidden>
+          <svg class="icon"><use href="#i-info"/></svg>
+          <span data-i18n="trainingPreviewNotice">This lake is below the automatic alert threshold of 75. This is a training preview only.</span>
+        </div>
+
+        <div class="alert-grid">
+          <div class="alert-main">
+            <section class="card voice-card" aria-labelledby="voice-title">
+              <div class="voice-top">
+                <div>
+                  <p class="eyebrow light" data-i18n="urduVoiceWarning">Urdu voice warning</p>
+                  <h2 id="voice-title" data-i18n="hearItInUrdu">Hear it in Urdu</h2>
+                  <p data-i18n="voiceSpokenSub">Spoken from the alert text, small enough for a 2G phone.</p>
+                </div>
+                <span class="size-badge" id="voice-size">~42 KB</span>
+              </div>
+              <div class="voice-player">
+                <button class="voice-play" id="voice-play" aria-label="Play or pause the Urdu warning">
+                  <svg class="icon play-icon"><use href="#i-play"/></svg>
+                  <svg class="icon pause-icon"><use href="#i-pause"/></svg>
+                </button>
+                <div class="waveform" id="waveform" aria-hidden="true"></div>
+                <div class="voice-time"><span id="voice-elapsed">0:00</span><span id="voice-total">0:21</span></div>
+                <span class="voice-progress" id="voice-progress" aria-hidden="true"></span>
+              </div>
+              <div class="voice-script-card">
+                <p class="voice-script" id="voice-script" lang="ur" dir="rtl"></p>
+                <p class="voice-script-en" id="voice-script-en"></p>
+              </div>
+              <div class="voice-meta">
+                <span><svg class="icon"><use href="#i-volume"/></svg> ur-PK · Uzma neural</span>
+                <span><svg class="icon"><use href="#i-download"/></svg> MP3 · mono · 16 kbps</span>
+                <span><svg class="icon"><use href="#i-signal"/></svg> <span data-i18n="worksOn2g">works on 2G</span></span>
+              </div>
+              <p class="voice-note" id="voice-note" data-i18n="audioGenNote">Audio generated by the neural ur-PK-UzmaNeural voice engine and compressed below 45 KB.</p>
+              <div class="voice-actions">
+                <button class="btn btn-light" id="voice-preview">
+                  <svg class="icon"><use href="#i-play"/></svg> <span data-i18n="playUrduPreview">Play Urdu preview</span>
+                </button>
+                <button class="btn btn-ghost-light" id="download-package">
+                  <svg class="icon"><use href="#i-download"/></svg> <span data-i18n="downloadAlertPkg">Download alert package</span>
+                </button>
+              </div>
+            </section>
+
+            <section class="card sms-card" aria-labelledby="sms-title">
+              <div class="card-head">
+                <div>
+                  <p class="eyebrow" data-i18n="smsEyebrow">160-character SMS</p>
+                  <h2 id="sms-title" data-i18n="smsHeading">Written to be read on any phone</h2>
+                </div>
+                <span class="char-count" id="sms-count">0 / 160</span>
+              </div>
+              <div class="sms-bubble" lang="ur" dir="rtl" id="sms-urdu"></div>
+              <div class="sms-actions">
+                <button class="btn btn-ghost" id="copy-sms"><svg class="icon"><use href="#i-copy"/></svg> <span data-i18n="copyUrduSms">Copy Urdu SMS</span></button>
+                <button class="btn btn-ghost" id="copy-english"><svg class="icon"><use href="#i-copy"/></svg> <span data-i18n="copyEnglish">Copy English</span></button>
+              </div>
+              <details class="translation">
+                <summary data-i18n="engTranslationSummary">English translation for officers</summary>
+                <p id="sms-english"></p>
+              </details>
+            </section>
+          </div>
+
+          <aside class="alert-side">
+            <section class="card recipients-card" aria-labelledby="recipients-title">
+              <h2 id="recipients-title" data-i18n="whoReceives">Who receives it</h2>
+              <p id="recipient-summary">3,400 people across 3 settlements downstream.</p>
+              <div class="recipient-chips" id="recipient-chips"></div>
+              <div class="channel-list">
+                <span><svg class="icon"><use href="#i-signal"/></svg> <span data-i18n="chanSms">SMS to every registered phone</span></span>
+                <span><svg class="icon"><use href="#i-volume"/></svg> <span data-i18n="chanWhatsapp">Voice note for WhatsApp groups</span></span>
+                <span><svg class="icon"><use href="#i-people"/></svg> <span data-i18n="chanBoard">Village noticeboard printout</span></span>
+              </div>
+            </section>
+
+            <section class="card audit-card" aria-labelledby="audit-title">
+              <h2 id="audit-title" data-i18n="whyAlertFired">Why this alert fired</h2>
+              <div id="alert-audit"></div>
+              <p class="audit-foot"><span data-i18n="triggeredAuto">Triggered automatically at 75. This lake is at</span> <strong id="alert-score">84</strong>.</p>
+            </section>
+
+            <section class="card approval-card" aria-labelledby="approval-title">
+              <div class="approval-head">
+                <svg class="icon"><use href="#i-lock"/></svg>
+                <h2 id="approval-title" data-i18n="ddmaApproval">DDMA approval</h2>
+              </div>
+              <p data-i18n="ddmaDesc">Alerts never bypass local authority. A district officer reviews every message before it is sent.</p>
+              <ol class="approval-steps" id="approval-steps">
+                <li class="is-done"><span class="step-dot"></span><div><strong data-i18n="step1Title">Risk crossed 75</strong><span data-i18n="step1Sub">Automatic trigger</span></div></li>
+                <li class="is-done"><span class="step-dot"></span><div><strong data-i18n="step2Title">Warning drafted</strong><span data-i18n="step2Sub">Urdu text + voice ready</span></div></li>
+                <li id="step-approve"><span class="step-dot"></span><div><strong data-i18n="step3Title">DDMA review</strong><span id="step-approve-hint" data-i18n="waitingForOfficer">Waiting for an officer</span></div></li>
+                <li id="step-sent"><span class="step-dot"></span><div><strong data-i18n="step4Title">Sent to villages</strong><span data-i18n="step4Sub">SMS + WhatsApp + noticeboard</span></div></li>
+              </ol>
+              <button class="btn btn-primary btn-block" id="approve-btn" data-i18n="approveBtn">Approve &amp; dispatch alert</button>
+              <p class="fine-print" data-i18n="approvalFinePrint">Approvals are logged to the DDMA dispatch audit file (live cellular SMS gateway disconnected).</p>
+            </section>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== METHOD ============================== -->
+    <section class="view" id="view-method" data-view-panel="method" hidden>
+      <div class="page">
+        <div class="method-head">
+          <p class="eyebrow" data-i18n="methodEyebrow">Method &amp; guardrails</p>
+          <h1 data-i18n="methodHeading">No black boxes. Every point has a reason.</h1>
+          <p class="lede" data-i18n="methodLede">A district officer should be able to see exactly why a lake was flagged — and disagree with it. The score is a deterministic sum of three physical signs measured from orbit.</p>
+        </div>
+
+        <div class="factor-grid">
+          <article class="card factor-card">
+            <span class="factor-points">50 <small data-i18n="pts">pts</small></span>
+            <span class="factor-icon factor-icon-blue"><svg class="icon"><use href="#i-water"/></svg></span>
+            <h2 data-i18n="factorGrowthTitle">How fast the lake is growing</h2>
+            <p data-i18n="factorGrowthDesc">Surface area measured by radar or optical satellite, compared with the previous 15 days.</p>
+            <div class="factor-scale"><span>+0%</span><span data-i18n="fullAt40">full at +40%</span></div>
+            <div class="meter"><span style="--fill: 100%"></span></div>
+            <p class="factor-source">Sentinel-1 RTC · Sentinel-2 L2A · Landsat 8–9</p>
+          </article>
+          <article class="card factor-card">
+            <span class="factor-points">30 <small data-i18n="pts">pts</small></span>
+            <span class="factor-icon factor-icon-amber"><svg class="icon"><use href="#i-thermo"/></svg></span>
+            <h2 data-i18n="factorHeatTitle">How hot it has been</h2>
+            <p data-i18n="factorHeatDesc">Five-day maximum temperature compared with the seasonal normal for that lake.</p>
+            <div class="factor-scale"><span data-i18n="normal">normal</span><span data-i18n="fullAt15">full at +15°C</span></div>
+            <div class="meter meter-amber"><span style="--fill: 100%"></span></div>
+            <p class="factor-source">NASA POWER T2M_MAX · GPM IMERG</p>
+          </article>
+          <article class="card factor-card">
+            <span class="factor-points">20 <small data-i18n="pts">pts</small></span>
+            <span class="factor-icon factor-icon-teal"><svg class="icon"><use href="#i-rain"/></svg></span>
+            <h2 data-i18n="factorRainTitle">How much rain fell</h2>
+            <p data-i18n="factorRainDesc">Rainfall over the last 72 hours, which can push an already-full lake over the edge.</p>
+            <div class="factor-scale"><span>0 mm</span><span data-i18n="fullAt25">full at 25 mm</span></div>
+            <div class="meter meter-teal"><span style="--fill: 100%"></span></div>
+            <p class="factor-source">NASA POWER PRECTOTCORR · GPM IMERG</p>
+          </article>
+        </div>
+
+        <section class="card method-tiers">
+          <div class="card-head">
+            <div>
+              <h2 data-i18n="threeSimpleTiers">Three simple tiers</h2>
+              <p data-i18n="tiersSub">The same colors appear everywhere in GlacierWatch.</p>
+            </div>
+            <span class="badge-soft" data-i18n="points100">0–100 points</span>
+          </div>
+          <div class="tier-scale">
+            <div class="tier tier-low"><strong>0–44</strong><span data-i18n="stableTier">Stable</span><p data-i18n="stableTierDesc">Lake behaving normally for the season. No action.</p></div>
+            <div class="tier tier-moderate"><strong>45–74</strong><span data-i18n="watchTier">Watch</span><p data-i18n="watchTierDesc">Measurable change. Check again after the next pass.</p></div>
+            <div class="tier tier-high"><strong>75–100</strong><span data-i18n="highTier">High risk</span><p data-i18n="highTierDesc">Rapid growth plus heat or rain. Prepare downstream villages.</p></div>
+          </div>
+        </section>
+
+        <div class="method-grid">
+          <section class="card method-confidence">
+            <span class="method-icon"><svg class="icon"><use href="#i-signal"/></svg></span>
+            <h2 data-i18n="confidenceHeadTitle">How much to trust a reading</h2>
+            <p data-i18n="confidenceHeadDesc">Every score carries a confidence number. It is based on how much of the lake was visible through cloud, and how recently a radar pass saw it. Radar works through cloud, so a cloudy day does not automatically mean low confidence.</p>
+            <div class="confidence-example">
+              <div class="confidence-row"><span data-i18n="highConfLabel">High confidence</span><div class="confidence-meter"><span style="--fill: 88%"></span></div><strong>88%</strong></div>
+              <p data-i18n="highConfDesc">Fresh radar pass, few clouds. Treat the score as a solid reading.</p>
+            </div>
+            <div class="confidence-example">
+              <div class="confidence-row"><span data-i18n="lowConfLabel">Low confidence</span><div class="confidence-meter"><span style="--fill: 42%; --bar-color: var(--mod)"></span></div><strong>42%</strong></div>
+              <p data-i18n="lowConfDesc">Old pass, heavy cloud. Treat the score as a prompt to look again — not a verdict.</p>
+            </div>
+          </section>
+
+          <section class="card guardrail-card">
+            <span class="method-icon method-icon-amber"><svg class="icon"><use href="#i-warning"/></svg></span>
+            <h2 data-i18n="notWhatTitle">What GlacierWatch is not</h2>
+            <ul class="guardrail-list">
+              <li><svg class="icon"><use href="#i-check"/></svg><div><strong data-i18n="guard1Title">Not a flood clock.</strong><span data-i18n="guard1Desc">It is a decision-support risk indicator, not a prediction of when a lake will burst.</span></div></li>
+              <li><svg class="icon"><use href="#i-check"/></svg><div><strong data-i18n="guard2Title">Not calibrated for every lake.</strong><span data-i18n="guard2Desc">The physical rules are tuned for ice-dammed surge lakes such as Shisper. Moraine-dammed lakes need separate calibration.</span></div></li>
+              <li><svg class="icon"><use href="#i-check"/></svg><div><strong data-i18n="guard3Title">Never above local authority.</strong><span data-i18n="guard3Desc">Communities should always follow NDMA and DDMA evacuation orders.</span></div></li>
+            </ul>
+          </section>
+        </div>
+
+        <section class="card sources-card">
+          <div class="card-head">
+            <div>
+              <h2 data-i18n="openDataTitle">Open data, no proprietary hardware</h2>
+              <p data-i18n="openDataDesc">Every input is free and operational. No commercial satellite subscription is required.</p>
+            </div>
+          </div>
+          <div class="source-grid">
+            <div class="source"><span class="source-provider">ESA / ASF</span><strong>Sentinel-1 RTC</strong><em data-i18n="src1">All-weather radar · 10 m</em></div>
+            <div class="source"><span class="source-provider">ESA / AWS</span><strong>Sentinel-2 L2A</strong><em data-i18n="src2">Optical water mapping · 10 m</em></div>
+            <div class="source"><span class="source-provider">NASA / USGS</span><strong>Landsat 8–9</strong><em data-i18n="src3">Backup optical · 30 m</em></div>
+            <div class="source"><span class="source-provider">NASA LaRC</span><strong>POWER</strong><em data-i18n="src4">Daily heat + rainfall</em></div>
+            <div class="source"><span class="source-provider">NASA GES DISC</span><strong>GPM IMERG</strong><em data-i18n="src5">Mountain rainfall · hourly</em></div>
+            <div class="source"><span class="source-provider">NASA / ESA</span><strong>Copernicus DEM</strong><em data-i18n="src6">30 m elevation + routing</em></div>
+            <div class="source"><span class="source-provider">ICIMOD / Figshare</span><strong>Lake inventory</strong><em data-i18n="src7">1,326 mapped polygons</em></div>
+            <div class="source"><span class="source-provider">OpenStreetMap</span><strong>Villages &amp; roads</strong><em data-i18n="src8">People, bridges, highways</em></div>
+          </div>
+        </section>
+
+        <section class="pipeline-band">
+          <p class="eyebrow" data-i18n="pipelineEyebrow">From orbit to a village phone</p>
+          <h2 data-i18n="pipelineTitle">Six steps, under 30 seconds.</h2>
+          <ol class="pipeline">
+            <li><span class="step-num">1</span><div><strong data-i18n="p1Title">Load the terrain</strong><span data-i18n="p1Desc">Lake shapes, villages and 30 m elevation.</span></div></li>
+            <li><span class="step-num">2</span><div><strong data-i18n="p2Title">Stream only the pixels</strong><span data-i18n="p2Desc">Under 200 KB per lake, no full scene downloads.</span></div></li>
+            <li><span class="step-num">3</span><div><strong data-i18n="p3Title">Measure the water</strong><span data-i18n="p3Desc">Optical when clear, radar when cloudy.</span></div></li>
+            <li><span class="step-num">4</span><div><strong data-i18n="p4Title">Score the change</strong><span data-i18n="p4Desc">Growth + heat + rain, itemised.</span></div></li>
+            <li><span class="step-num">5</span><div><strong data-i18n="p5Title">Show the risk</strong><span data-i18n="p5Desc">Map, trend charts and a plain-language tier.</span></div></li>
+            <li><span class="step-num">6</span><div><strong data-i18n="p6Title">Warn people</strong><span data-i18n="p6Desc">Urdu voice, SMS and an uphill route.</span></div></li>
+          </ol>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <nav class="tab-bar" aria-label="Primary navigation">
+    <button class="nav-link tab-link is-active" data-view="overview" aria-current="page">
+      <svg class="icon" aria-hidden="true"><use href="#i-map"/></svg><span data-i18n="navOverview">Overview</span>
+    </button>
+    <button class="nav-link tab-link" data-view="timemachine">
+      <svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span data-i18n="navTimeMachine">Time Machine</span>
+    </button>
+    <button class="nav-link tab-link" data-view="escape">
+      <svg class="icon" aria-hidden="true"><use href="#i-route"/></svg><span data-i18n="navEscape">Escape</span>
+    </button>
+    <button class="nav-link tab-link" data-view="alerts">
+      <svg class="icon" aria-hidden="true"><use href="#i-volume"/></svg><span data-i18n="navAlerts">Alerts</span>
+    </button>
+    <button class="nav-link tab-link" data-view="method">
+      <svg class="icon" aria-hidden="true"><use href="#i-sparkle"/></svg><span data-i18n="navMethod">How it works</span>
+    </button>
+  </nav>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark small" aria-hidden="true" style="background: transparent; box-shadow: none;">
+          <svg viewBox="0 0 44 44" fill="none">
+            <rect x="2" y="2" width="40" height="40" rx="12" fill="#e3f3f4" stroke="#cde4e5" stroke-width="1.2"/>
+            <path d="M8 29.5 14.5 20.5a1.6 1.6 0 0 1 2.6 0l2.4 3.4 4.1-6.2a1.6 1.6 0 0 1 2.7.1l4.7 8.1" stroke="#0b6e82" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="33.5" cy="12.5" r="2" fill="#0b6e82"/>
+            <path d="M10 33.5c4.5-1.6 8.5 1.6 13 0s8.5 1.6 11 0" stroke="#5ab8a8" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <div><strong>GlacierWatch</strong><span data-i18n="nasaChallenge">Built for NASA Space Apps Challenge 2026.</span></div>
+      </div>
+      <p class="footer-disclaimer"><strong data-i18n="decisionSupportOnly">Decision support only.</strong> <span data-i18n="footerDisclaimerText">GlacierWatch is not a flood prediction service. Ground conditions can change fast. Always follow official NDMA and DDMA instructions.</span></p>
+      <div class="footer-meta">
+        <span data-i18n="footerVerified">Verified telemetry · Sentinel, Landsat, NASA POWER &amp; USGS</span>
+        <button class="footer-link" data-jump="method" data-i18n="methodAndSources">Method &amp; sources</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================== LAKE DETAIL DIALOG ============================== -->
+  <dialog class="lake-dialog" id="lake-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-scroll">
+      <button class="dialog-close" id="dialog-close" aria-label="Close lake details">
+        <svg class="icon"><use href="#i-close"/></svg>
+      </button>
+      <div class="dialog-head">
+        <span class="risk-chip" id="dialog-chip"><i class="dot"></i><span data-i18n="highRiskChip">High risk</span></span>
+        <h2 id="dialog-title">Shisper Lake</h2>
+        <p class="dialog-sub" id="dialog-location">Hunza basin · Hunza district · Ice-dammed</p>
+        <p class="dialog-urdu" lang="ur" dir="rtl" id="dialog-urdu">شسپر جھیل</p>
+      </div>
+
+      <div class="dialog-score-row">
+        <div class="score-ring" id="score-ring">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <circle class="ring-track" cx="60" cy="60" r="52"></circle>
+            <circle class="ring-fill" id="ring-fill" cx="60" cy="60" r="52"></circle>
+          </svg>
+          <div class="score-ring-text"><strong id="dialog-score">84</strong><span data-i18n="outOf100">out of 100</span></div>
+        </div>
+        <div class="dialog-verdict">
+          <p class="verdict-sentence" id="dialog-verdict">Water is rising fast, and heat or rain is adding pressure. People downstream should be ready to move.</p>
+          <p class="verdict-note" id="dialog-verdict-note">Above the automatic warning line of 75.</p>
+        </div>
+      </div>
+
+      <section class="dialog-section">
+        <h3 data-i18n="whatMovedScore">What moved the score</h3>
+        <div class="breakdown" id="dialog-breakdown"></div>
+      </section>
+
+      <section class="dialog-section confidence-block">
+        <div class="confidence-head">
+          <h3 data-i18n="howConfidentReading">How confident is this reading?</h3>
+          <strong id="dialog-confidence">77%</strong>
+        </div>
+        <div class="confidence-meter"><span id="dialog-confidence-bar" style="--fill: 77%"></span></div>
+        <p class="confidence-copy" id="dialog-confidence-copy">Based on 62% cloud cover and a radar pass 1 day old.</p>
+      </section>
+
+      <section class="dialog-section">
+        <h3 data-i18n="latestObservations">Latest observations</h3>
+        <dl class="obs-grid" id="dialog-obs"></dl>
+      </section>
+
+      <section class="dialog-section">
+        <h3 data-i18n="downstreamExposure">Downstream exposure</h3>
+        <div class="exposure">
+          <div class="exposure-people">
+            <svg class="icon"><use href="#i-people"/></svg>
+            <div><strong id="dialog-pop">6,800</strong><span data-i18n="peopleDownstream">people downstream</span></div>
+          </div>
+          <div class="recipient-chips" id="dialog-villages"></div>
+        </div>
+      </section>
+
+      <div class="dialog-actions">
+        <button class="btn btn-primary" id="dialog-alert-btn"><svg class="icon"><use href="#i-volume"/></svg> <span data-i18n="previewUrduWarning">Preview Urdu warning</span></button>
+        <button class="btn btn-ghost" id="dialog-route-btn"><svg class="icon"><use href="#i-route"/></svg> <span data-i18n="showEscapeRoute">Show escape route</span></button>
+        <button class="btn btn-ghost" id="dialog-locate-btn"><svg class="icon"><use href="#i-pin"/></svg> <span data-i18n="locateOnMap">Locate on map</span></button>
+      </div>
+
+      <details class="dialog-tech" id="dialog-tech">
+        <summary data-i18n="technicalDetails">Technical details</summary>
+        <dl id="dialog-tech-list"></dl>
+      </details>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
